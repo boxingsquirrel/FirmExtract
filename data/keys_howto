@@ -1,0 +1,5 @@
+===How to add version support===
+
+First off, copy src/blank_firmware_entry.plist to data. Rename it into this format: [target]_[iOS Version].plist, ie iPod4,1_4.1.plist. Then, get your rear end to the iPhone Wiki for keys. Fill in the new plist you have in the data folder. Run make install to install the new plist to the system folder. Done!
+
+If you go to the trouble of doing this, please email a copy to me/put the plist contents on a pastebin and @reply me with the link on Twitter.

@@ -1,0 +1,46 @@
+FirmExtract is a simple GTK+ utility to extract and decrypt the contents of ipsws.
+
+===Supported Devices/Firmwares===
+
+iPhone2G: 3.1.3 (partial)
+iPhone3G: 4.* (some partial)
+iPhone3GS: 4.* (some partial)
+iPhone4: 4.* (some partial)
+
+iPod Touch 1G: 3.0 (partial)
+iPod Touch 2G: 4.* (some partial)
+iPod Touch 3G: 4.*
+iPod Touch 4G: 4.1
+
+iPad: 3.2.* (some partial)
+
+AppleTV 2G: 4.1 (partial)
+
+Please see the SUPPORT file for more detailed information.
+
+===Notes===
+
+Not all items can be decrypted at this point because of missing keys. A log shows after decryption, letting you know what could not be decrypted from your ipsw.
+
+===How to build===
+
+You'll need, in addition to standard build packages: libgtk2.0-dev, libzip-dev, libssl-dev.
+
+Then, issue:
+	make
+	su
+	make install
+
+===Running===
+
+Either use the menu item (under Programming) or run /usr/bin/firmextract. It's a graphical application.
+
+===Helping Out===
+
+Want to help? 
+
+Anyone with a knowledge of C is more than welcome to contribute code.
+
+This tool could use ports to Mac OS X and Windows. Anyone with knowledge in that department, please contact me.
+
+If anyone wants to contribute keys, feel free ;P

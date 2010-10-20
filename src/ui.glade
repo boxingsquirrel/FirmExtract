@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Fri Oct  8 19:08:52 2010 -->
+<glade-interface>
+  <widget class="GtkWindow" id="window1">
+    <property name="title" translatable="yes">FirmExtract</property>
+    <property name="resizable">False</property>
+    <property name="window_position">GTK_WIN_POS_CENTER</property>
+    <property name="icon">ipsw.png</property>
+    <child>
+      <widget class="GtkVBox" id="vbox1">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkHBox" id="hbox2">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkImage" id="image1">
+                <property name="visible">True</property>
+                <property name="pixbuf">ipsw.png</property>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkLabel" id="label2">
+                <property name="visible">True</property>
+                <property name="label" translatable="yes">IPSW Extraction</property>
+              </widget>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </widget>
+        </child>
+        <child>
+          <widget class="GtkHBox" id="hbox1">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkLabel" id="label1">
+                <property name="visible">True</property>
+                <property name="label" translatable="yes">Select *.ipsw file</property>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkFileChooserButton" id="file_choose">
+                <property name="visible">True</property>
+                <property name="title" translatable="yes">Browse for IPSW</property>
+              </widget>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkVBox" id="vbox2">
+            <property name="visible">True</property>
+            <child>
+              <widget class="GtkHBox" id="hbox4">
+                <property name="visible">True</property>
+                <child>
+                  <widget class="GtkLabel" id="label4">
+                    <property name="visible">True</property>
+                    <property name="label" translatable="yes">Select output directory</property>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="GtkFileChooserButton" id="file_choose1">
+                    <property name="visible">True</property>
+                    <property name="action">GTK_FILE_CHOOSER_ACTION_SELECT_FOLDER</property>
+                    <property name="title" translatable="yes">Select output directory</property>
+                  </widget>
+                  <packing>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+              </widget>
+            </child>
+            <child>
+              <widget class="GtkExpander" id="expander1">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <child>
+                  <widget class="GtkVBox" id="vbox3">
+                    <property name="visible">True</property>
+                    <child>
+                      <widget class="GtkCheckButton" id="checkbutton1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="label" translatable="yes">Get platform and version from IPSW</property>
+                        <property name="response_id">0</property>
+                        <property name="active">True</property>
+                        <property name="draw_indicator">True</property>
+                      </widget>
+                    </child>
+                    <child>
+                      <widget class="GtkHBox" id="hbox5">
+                        <property name="visible">True</property>
+                        <child>
+                          <widget class="GtkEntry" id="entry1">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="max_length">10</property>
+                            <property name="width_chars">10</property>
+                            <property name="text" translatable="yes">[Target]</property>
+                          </widget>
+                        </child>
+                        <child>
+                          <widget class="GtkEntry" id="entry2">
+                            <property name="visible">True</property>
+                            <property name="can_focus">True</property>
+                            <property name="max_length">5</property>
+                            <property name="width_chars">5</property>
+                            <property name="text" translatable="yes">X.x.x</property>
+                          </widget>
+                          <packing>
+                            <property name="position">1</property>
+                          </packing>
+                        </child>
+                      </widget>
+                      <packing>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                  </widget>
+                </child>
+                <child>
+                  <widget class="GtkLabel" id="label3">
+                    <property name="visible">True</property>
+                    <property name="label" translatable="yes">Advanced</property>
+                  </widget>
+                  <packing>
+                    <property name="type">label_item</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkHBox" id="hbox3">
+            <property name="visible">True</property>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <placeholder/>
+            </child>
+            <child>
+              <widget class="GtkButton" id="button1">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="label" translatable="yes">Extract</property>
+                <property name="response_id">0</property>
+              </widget>
+              <packing>
+                <property name="position">2</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="position">3</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
