@@ -86,6 +86,24 @@ static void set_dir(GtkWidget *widget, gpointer data)
 	printf("Selected directory is %s\n", out_dir);
 }
 
+static void toggle(GtkWidget *widget, gpointer data)
+{
+	gboolean real=gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(fetch));
+	gboolean enable;
+
+	if (real)
+	{
+		enable=FALSE;
+	}
+
+	else {
+		enable=TRUE;
+	}
+
+		gtk_widget_set_sensitive(GTK_WIDGET(fake_dev), enable);
+		gtk_widget_set_sensitive(GTK_WIDGET(fake_v), enable);
+}
+
 static void ipsw_extract_thread(GtkWidget *widget, gpointer data)
 {
 	gboolean real=gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(fetch));
@@ -131,6 +149,8 @@ int main(int argc, char *argv[])
 		      G_CALLBACK (set_dir), NULL);
 	g_signal_connect (G_OBJECT (button1), "released",
 		      G_CALLBACK (ipsw_extract_thread), NULL);
+	g_signal_connect (G_OBJECT (fetch), "toggled",
+		      G_CALLBACK (toggle), NULL);
         g_signal_connect (G_OBJECT (window), "destroy",
 		      G_CALLBACK (destroy_win), NULL);
 

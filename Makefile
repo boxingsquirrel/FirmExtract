@@ -47,7 +47,6 @@ install:
 	$(MKDIR) $(DATAPATH)/res $(DATAPATH)/data $(DATAPATH)/scripts
 	$(CP) ./res/* $(DATAPATH)/res
 	$(CP) ./data/* $(DATAPATH)/data
-	$(CP) ./scripts/* $(DATAPATH)/scripts
 	@echo "Adding "$(OUTFILE)" to the menu..."
 	cp $(MENUFILE) /usr/share/applications/$(MENUFILE)
 	@echo "Install complete"

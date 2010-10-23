@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
-<!--Generated with glade3 3.4.5 on Fri Oct  8 19:08:52 2010 -->
+<!--Generated with glade3 3.4.5 on Sat Oct 23 15:08:37 2010 -->
 <glade-interface>
   <widget class="GtkWindow" id="window1">
     <property name="title" translatable="yes">FirmExtract</property>
@@ -100,7 +100,10 @@
                         <child>
                           <widget class="GtkEntry" id="entry1">
                             <property name="visible">True</property>
+                            <property name="sensitive">False</property>
                             <property name="can_focus">True</property>
+                            <property name="has_tooltip">True</property>
+                            <property name="tooltip_text">Target, like "iPod2,1" (without the quotes)</property>
                             <property name="max_length">10</property>
                             <property name="width_chars">10</property>
                             <property name="text" translatable="yes">[Target]</property>
@@ -109,7 +112,10 @@
                         <child>
                           <widget class="GtkEntry" id="entry2">
                             <property name="visible">True</property>
+                            <property name="sensitive">False</property>
                             <property name="can_focus">True</property>
+                            <property name="has_tooltip">True</property>
+                            <property name="tooltip_text">Version, like "4.1" (without the quotes)</property>
                             <property name="max_length">5</property>
                             <property name="width_chars">5</property>
                             <property name="text" translatable="yes">X.x.x</property>
