@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FirmExtract-OSX' target in the 'FirmExtract-OSX' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

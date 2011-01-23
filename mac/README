@@ -1,0 +1,5 @@
+Source code behind Firm-Extract (OSX version). Build with XCode currently supports brew. Requires libplist and lib zip to build. Download binaries from http://boxingsquirrel.tk
+
+Created by Boxingsquirrel (http://twitter.com/boxingsquirrel)
+Includes code by P0sixninja (http://twitter.com/posixninja)
+XPwn (DMG, HFS and XPwntool) by Planetbeing (http://twitter.com/planetbeing)
