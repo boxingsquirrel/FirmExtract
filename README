@@ -1,4 +1,11 @@
-FirmExtract is a simple GTK+ utility to extract and decrypt the contents of ipsws.
+FirmExtract is a simple utility to extract and decrypt the contents of IPSWs.
+
+===Props===
+
+Some of the code is Copyright Joshua Hill (aka p0sixninja), ripped from idevicerestore.
+Parts of XPwn used, see the docs there.
+Thanks to boxingcow for Mac cleanup, the guy's awesome (except for that stupid goat).
+If I forgot about you, sorry.
 
 ===Supported Devices/Firmwares===
 
@@ -10,30 +17,39 @@ iPhone4: 4.* (some partial)
 iPod Touch 1G: 3.0 (partial)
 iPod Touch 2G: 4.* (some partial)
 iPod Touch 3G: 4.*
-iPod Touch 4G: 4.1
+iPod Touch 4G: 4.1-4.2.1
 
-iPad: 3.2.* (some partial)
+iPad: 3.2.* (some partial), 4.2.1
 
-AppleTV 2G: 4.1
+AppleTV 2G: 4.1, 4.2
 
 Please see the SUPPORT file for more detailed information.
 
 ===Notes===
 
-Not all items can be decrypted at this point because of missing keys. A log shows after decryption, letting you know what could not be decrypted from your ipsw.
+Not all items can be decrypted at this point because of missing keys. A log shows after decryption, letting you know what could not be decrypted from your IPSW.
 
-===How to build===
+===How to build (Linux)===
 
 You'll need, in addition to standard build packages: libgtk2.0-dev, libzip-dev, libssl-dev.
 
 Then, issue:
+	cd linux
 	make
 	su
 	make install
 
-===Running===
+===How to build (Mac OS X)===
+
+You'll need libplist and libzip. Make sure they're somewhere XCode can see them. Open the .xcodeproj in the mac/ folder. Set the target to Release and hit [Command]+B.
+
+===Running (Linux)===
 
 Either use the menu item (under Programming) or run /usr/bin/firmextract. It's a graphical application.
+
+===Running (Mac OS X)===
+
+Drag mac/build/Release/FirmExtract-OSX.app to /Applications and launch it from there.
 
 ===Helping Out===
 
@@ -41,6 +57,6 @@ Want to help?
 
 Anyone with a knowledge of C is more than welcome to contribute code.
 
-This tool could use ports to Mac OS X and Windows. Anyone with knowledge in that department, please contact me.
+This tool could use a port to Windows (32+64 bit). Anyone with knowledge in that department, please contact me.
 
 If anyone wants to contribute keys, feel free ;P
