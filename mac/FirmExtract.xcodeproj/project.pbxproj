@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* FirmExtractAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* FirmExtractAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CF42683612FE5592000C2D46 /* help.helpindex in Resources */ = {isa = PBXBuildFile; fileRef = CF42683512FE5592000C2D46 /* help.helpindex */; };
+		CF9351F012FF09B100D02C6A /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = CF9351EF12FF09B100D02C6A /* dsa_pub.pem */; };
+		CF93525E12FF29C200D02C6A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF93525412FF29A900D02C6A /* Sparkle.framework */; };
+		CF93525F12FF29CE00D02C6A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF93525412FF29A900D02C6A /* Sparkle.framework */; };
+		CFA0888412FC9AAB0047837B /* iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA0888312FC9AAB0047837B /* iPhone.png */; };
+		CFA0888812FC9BA10047837B /* ipsw.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA0888712FC9BA10047837B /* ipsw.png */; };
+		CFA0888C12FC9BBE0047837B /* ext.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA0888B12FC9BBE0047837B /* ext.png */; };
+		CFA0889112FC9CFF0047837B /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA0889012FC9CFF0047837B /* Controller.m */; };
+		CFA0889F12FC9E0F0047837B /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFA0889E12FC9E0F0047837B /* ZipArchive.mm */; };
+		CFA088B012FC9E450047837B /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CFA088A812FC9E440047837B /* ioapi.c */; };
+		CFA088B112FC9E450047837B /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CFA088AA12FC9E440047837B /* mztools.c */; };
+		CFA088B212FC9E450047837B /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CFA088AC12FC9E450047837B /* unzip.c */; };
+		CFA088B312FC9E450047837B /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CFA088AE12FC9E450047837B /* zip.c */; };
+		CFA088C012FC9E9A0047837B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA088BF12FC9E9A0047837B /* libz.dylib */; };
+		CFA0893512FCAADE0047837B /* AppleTV2,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0890F12FCAADE0047837B /* AppleTV2,1_4.1.plist */; };
+		CFA0893612FCAADE0047837B /* AppleTV2,1_4.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891012FCAADE0047837B /* AppleTV2,1_4.2.plist */; };
+		CFA0893712FCAADE0047837B /* blank_firmware_entry.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891112FCAADE0047837B /* blank_firmware_entry.plist */; };
+		CFA0893812FCAADE0047837B /* iPad1,1_3.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891212FCAADE0047837B /* iPad1,1_3.2.1.plist */; };
+		CFA0893912FCAADE0047837B /* iPad1,1_3.2.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891312FCAADE0047837B /* iPad1,1_3.2.2.plist */; };
+		CFA0893A12FCAADE0047837B /* iPad1,1_3.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891412FCAADE0047837B /* iPad1,1_3.2.plist */; };
+		CFA0893B12FCAADE0047837B /* iPad1,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891512FCAADE0047837B /* iPad1,1_4.2.1.plist */; };
+		CFA0893C12FCAADE0047837B /* iPhone1,1_3.1.3.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891612FCAADE0047837B /* iPhone1,1_3.1.3.plist */; };
+		CFA0893D12FCAADE0047837B /* iPhone1,2_4.0.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891712FCAADE0047837B /* iPhone1,2_4.0.1.plist */; };
+		CFA0893E12FCAADE0047837B /* iPhone1,2_4.0.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891812FCAADE0047837B /* iPhone1,2_4.0.2.plist */; };
+		CFA0893F12FCAADE0047837B /* iPhone1,2_4.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891912FCAADE0047837B /* iPhone1,2_4.0.plist */; };
+		CFA0894012FCAADE0047837B /* iPhone1,2_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891A12FCAADE0047837B /* iPhone1,2_4.1.plist */; };
+		CFA0894112FCAADE0047837B /* iPhone1,2_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891B12FCAADE0047837B /* iPhone1,2_4.2.1.plist */; };
+		CFA0894212FCAADE0047837B /* iPhone2,1_4.0.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891C12FCAADE0047837B /* iPhone2,1_4.0.1.plist */; };
+		CFA0894312FCAADE0047837B /* iPhone2,1_4.0.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891D12FCAADE0047837B /* iPhone2,1_4.0.2.plist */; };
+		CFA0894412FCAADE0047837B /* iPhone2,1_4.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891E12FCAADE0047837B /* iPhone2,1_4.0.plist */; };
+		CFA0894512FCAADE0047837B /* iPhone2,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0891F12FCAADE0047837B /* iPhone2,1_4.1.plist */; };
+		CFA0894612FCAADE0047837B /* iPhone2,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892012FCAADE0047837B /* iPhone2,1_4.2.1.plist */; };
+		CFA0894712FCAADE0047837B /* iPhone3,1_4.0.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892112FCAADE0047837B /* iPhone3,1_4.0.1.plist */; };
+		CFA0894812FCAADE0047837B /* iPhone3,1_4.0.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892212FCAADE0047837B /* iPhone3,1_4.0.2.plist */; };
+		CFA0894912FCAADE0047837B /* iPhone3,1_4.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892312FCAADE0047837B /* iPhone3,1_4.0.plist */; };
+		CFA0894A12FCAADE0047837B /* iPhone3,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892412FCAADE0047837B /* iPhone3,1_4.1.plist */; };
+		CFA0894B12FCAADE0047837B /* iPhone3,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892512FCAADE0047837B /* iPhone3,1_4.2.1.plist */; };
+		CFA0894C12FCAADE0047837B /* iPhone3,3_4.2.6.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892612FCAADE0047837B /* iPhone3,3_4.2.6.plist */; };
+		CFA0894D12FCAADE0047837B /* iPod1,1_3.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892712FCAADE0047837B /* iPod1,1_3.0.plist */; };
+		CFA0894E12FCAADE0047837B /* iPod2,1_4.0.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892812FCAADE0047837B /* iPod2,1_4.0.2.plist */; };
+		CFA0894F12FCAADE0047837B /* iPod2,1_4.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892912FCAADE0047837B /* iPod2,1_4.0.plist */; };
+		CFA0895012FCAADE0047837B /* iPod2,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892A12FCAADE0047837B /* iPod2,1_4.1.plist */; };
+		CFA0895112FCAADE0047837B /* iPod2,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892B12FCAADE0047837B /* iPod2,1_4.2.1.plist */; };
+		CFA0895212FCAADE0047837B /* iPod3,1_4.0.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892C12FCAADE0047837B /* iPod3,1_4.0.2.plist */; };
+		CFA0895312FCAADE0047837B /* iPod3,1_4.0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892D12FCAADE0047837B /* iPod3,1_4.0.plist */; };
+		CFA0895412FCAADE0047837B /* iPod3,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892E12FCAADE0047837B /* iPod3,1_4.1.plist */; };
+		CFA0895512FCAADE0047837B /* iPod3,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0892F12FCAADE0047837B /* iPod3,1_4.2.1.plist */; };
+		CFA0895612FCAADE0047837B /* iPod4,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0893012FCAADE0047837B /* iPod4,1_4.1.plist */; };
+		CFA0895712FCAADE0047837B /* iPod4,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0893112FCAADE0047837B /* iPod4,1_4.2.1.plist */; };
+		CFA0895812FCAADE0047837B /* iProd2,1_4.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0893212FCAADE0047837B /* iProd2,1_4.1.plist */; };
+		CFA0895912FCAADE0047837B /* iProd2,1_4.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA0893312FCAADE0047837B /* iProd2,1_4.2.plist */; };
+		CFA0895A12FCAADE0047837B /* keys_howto in Resources */ = {isa = PBXBuildFile; fileRef = CFA0893412FCAADE0047837B /* keys_howto */; };
+		CFA089D812FCAF5C0047837B /* xpwntool in Resources */ = {isa = PBXBuildFile; fileRef = CFA089D712FCAF5C0047837B /* xpwntool */; };
+		CFA089DB12FCAF9E0047837B /* dmg in Resources */ = {isa = PBXBuildFile; fileRef = CFA089D112FCAF000047837B /* dmg */; };
+		CFCFF6E813048D03001C01B3 /* atv2.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCFF6E513048D03001C01B3 /* atv2.png */; };
+		CFCFF6E913048D03001C01B3 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCFF6E613048D03001C01B3 /* iPad.png */; };
+		CFCFF6EA13048D03001C01B3 /* iPod.png in Resources */ = {isa = PBXBuildFile; fileRef = CFCFF6E713048D03001C01B3 /* iPod.png */; };
+		CFDF183712FE287B0026B346 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = CFDF183612FE287B0026B346 /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF9351CB12FF07B900D02C6A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF93525F12FF29CE00D02C6A /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* FirmExtractAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmExtractAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* FirmExtractAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirmExtractAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* FirmExtract_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirmExtract_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* FirmExtract-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FirmExtract-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* FirmExtract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirmExtract.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF42683512FE5592000C2D46 /* help.helpindex */ = {isa = PBXFileReference; lastKnownFileType = file; name = help.helpindex; path = help/help.helpindex; sourceTree = "<group>"; };
+		CF9351EF12FF09B100D02C6A /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		CF93525412FF29A900D02C6A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		CFA0888312FC9AAB0047837B /* iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone.png; sourceTree = "<group>"; };
+		CFA0888712FC9BA10047837B /* ipsw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipsw.png; sourceTree = "<group>"; };
+		CFA0888B12FC9BBE0047837B /* ext.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ext.png; sourceTree = "<group>"; };
+		CFA0888F12FC9CFF0047837B /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		CFA0889012FC9CFF0047837B /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		CFA0889D12FC9E0F0047837B /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		CFA0889E12FC9E0F0047837B /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		CFA088A712FC9E440047837B /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		CFA088A812FC9E440047837B /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		CFA088A912FC9E440047837B /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		CFA088AA12FC9E440047837B /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		CFA088AB12FC9E440047837B /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		CFA088AC12FC9E450047837B /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		CFA088AD12FC9E450047837B /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		CFA088AE12FC9E450047837B /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		CFA088AF12FC9E450047837B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		CFA088BF12FC9E9A0047837B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CFA0890F12FCAADE0047837B /* AppleTV2,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppleTV2,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0891012FCAADE0047837B /* AppleTV2,1_4.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppleTV2,1_4.2.plist"; sourceTree = "<group>"; };
+		CFA0891112FCAADE0047837B /* blank_firmware_entry.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blank_firmware_entry.plist; sourceTree = "<group>"; };
+		CFA0891212FCAADE0047837B /* iPad1,1_3.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_3.2.1.plist"; sourceTree = "<group>"; };
+		CFA0891312FCAADE0047837B /* iPad1,1_3.2.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_3.2.2.plist"; sourceTree = "<group>"; };
+		CFA0891412FCAADE0047837B /* iPad1,1_3.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_3.2.plist"; sourceTree = "<group>"; };
+		CFA0891512FCAADE0047837B /* iPad1,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0891612FCAADE0047837B /* iPhone1,1_3.1.3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,1_3.1.3.plist"; sourceTree = "<group>"; };
+		CFA0891712FCAADE0047837B /* iPhone1,2_4.0.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,2_4.0.1.plist"; sourceTree = "<group>"; };
+		CFA0891812FCAADE0047837B /* iPhone1,2_4.0.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,2_4.0.2.plist"; sourceTree = "<group>"; };
+		CFA0891912FCAADE0047837B /* iPhone1,2_4.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,2_4.0.plist"; sourceTree = "<group>"; };
+		CFA0891A12FCAADE0047837B /* iPhone1,2_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,2_4.1.plist"; sourceTree = "<group>"; };
+		CFA0891B12FCAADE0047837B /* iPhone1,2_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone1,2_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0891C12FCAADE0047837B /* iPhone2,1_4.0.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone2,1_4.0.1.plist"; sourceTree = "<group>"; };
+		CFA0891D12FCAADE0047837B /* iPhone2,1_4.0.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone2,1_4.0.2.plist"; sourceTree = "<group>"; };
+		CFA0891E12FCAADE0047837B /* iPhone2,1_4.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone2,1_4.0.plist"; sourceTree = "<group>"; };
+		CFA0891F12FCAADE0047837B /* iPhone2,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone2,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0892012FCAADE0047837B /* iPhone2,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone2,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0892112FCAADE0047837B /* iPhone3,1_4.0.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,1_4.0.1.plist"; sourceTree = "<group>"; };
+		CFA0892212FCAADE0047837B /* iPhone3,1_4.0.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,1_4.0.2.plist"; sourceTree = "<group>"; };
+		CFA0892312FCAADE0047837B /* iPhone3,1_4.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,1_4.0.plist"; sourceTree = "<group>"; };
+		CFA0892412FCAADE0047837B /* iPhone3,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0892512FCAADE0047837B /* iPhone3,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0892612FCAADE0047837B /* iPhone3,3_4.2.6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPhone3,3_4.2.6.plist"; sourceTree = "<group>"; };
+		CFA0892712FCAADE0047837B /* iPod1,1_3.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod1,1_3.0.plist"; sourceTree = "<group>"; };
+		CFA0892812FCAADE0047837B /* iPod2,1_4.0.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod2,1_4.0.2.plist"; sourceTree = "<group>"; };
+		CFA0892912FCAADE0047837B /* iPod2,1_4.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod2,1_4.0.plist"; sourceTree = "<group>"; };
+		CFA0892A12FCAADE0047837B /* iPod2,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod2,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0892B12FCAADE0047837B /* iPod2,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod2,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0892C12FCAADE0047837B /* iPod3,1_4.0.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod3,1_4.0.2.plist"; sourceTree = "<group>"; };
+		CFA0892D12FCAADE0047837B /* iPod3,1_4.0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod3,1_4.0.plist"; sourceTree = "<group>"; };
+		CFA0892E12FCAADE0047837B /* iPod3,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod3,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0892F12FCAADE0047837B /* iPod3,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod3,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0893012FCAADE0047837B /* iPod4,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod4,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0893112FCAADE0047837B /* iPod4,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPod4,1_4.2.1.plist"; sourceTree = "<group>"; };
+		CFA0893212FCAADE0047837B /* iProd2,1_4.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iProd2,1_4.1.plist"; sourceTree = "<group>"; };
+		CFA0893312FCAADE0047837B /* iProd2,1_4.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iProd2,1_4.2.plist"; sourceTree = "<group>"; };
+		CFA0893412FCAADE0047837B /* keys_howto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys_howto; sourceTree = "<group>"; };
+		CFA089D112FCAF000047837B /* dmg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dmg; sourceTree = "<group>"; };
+		CFA089D712FCAF5C0047837B /* xpwntool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xpwntool; sourceTree = "<group>"; };
+		CFCFF6E513048D03001C01B3 /* atv2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atv2.png; sourceTree = "<group>"; };
+		CFCFF6E613048D03001C01B3 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
+		CFCFF6E713048D03001C01B3 /* iPod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPod.png; sourceTree = "<group>"; };
+		CFDF183612FE287B0026B346 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				CFA088C012FC9E9A0047837B /* libz.dylib in Frameworks */,
+				CF93525E12FF29C200D02C6A /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* FirmExtractAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* FirmExtractAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* FirmExtract.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* FirmExtract */ = {
+			isa = PBXGroup;
+			children = (
+				CFCFF6E513048D03001C01B3 /* atv2.png */,
+				CFCFF6E613048D03001C01B3 /* iPad.png */,
+				CFCFF6E713048D03001C01B3 /* iPod.png */,
+				CF9351EF12FF09B100D02C6A /* dsa_pub.pem */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CFA088BF12FC9E9A0047837B /* libz.dylib */,
+			);
+			name = FirmExtract;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* FirmExtract_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF93525412FF29A900D02C6A /* Sparkle.framework */,
+				CFA089D112FCAF000047837B /* dmg */,
+				CFA089D712FCAF5C0047837B /* xpwntool */,
+				8D1107310486CEB800E47090 /* FirmExtract-Info.plist */,
+				CFA0888F12FC9CFF0047837B /* Controller.h */,
+				CF42683512FE5592000C2D46 /* help.helpindex */,
+				CFA0889012FC9CFF0047837B /* Controller.m */,
+				CFDF183612FE287B0026B346 /* icon.icns */,
+				CFA0890E12FCAADE0047837B /* data */,
+				CFA0889D12FC9E0F0047837B /* ZipArchive.h */,
+				CFA088A612FC9E440047837B /* minizip */,
+				CFA0889E12FC9E0F0047837B /* ZipArchive.mm */,
+				CFA0888B12FC9BBE0047837B /* ext.png */,
+				CFA0888712FC9BA10047837B /* ipsw.png */,
+				CFA0888312FC9AAB0047837B /* iPhone.png */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA088A612FC9E440047837B /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				CFA088A712FC9E440047837B /* crypt.h */,
+				CFA088A812FC9E440047837B /* ioapi.c */,
+				CFA088A912FC9E440047837B /* ioapi.h */,
+				CFA088AA12FC9E440047837B /* mztools.c */,
+				CFA088AB12FC9E440047837B /* mztools.h */,
+				CFA088AC12FC9E450047837B /* unzip.c */,
+				CFA088AD12FC9E450047837B /* unzip.h */,
+				CFA088AE12FC9E450047837B /* zip.c */,
+				CFA088AF12FC9E450047837B /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		CFA0890E12FCAADE0047837B /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0890F12FCAADE0047837B /* AppleTV2,1_4.1.plist */,
+				CFA0891012FCAADE0047837B /* AppleTV2,1_4.2.plist */,
+				CFA0891112FCAADE0047837B /* blank_firmware_entry.plist */,
+				CFA0891212FCAADE0047837B /* iPad1,1_3.2.1.plist */,
+				CFA0891312FCAADE0047837B /* iPad1,1_3.2.2.plist */,
+				CFA0891412FCAADE0047837B /* iPad1,1_3.2.plist */,
+				CFA0891512FCAADE0047837B /* iPad1,1_4.2.1.plist */,
+				CFA0891612FCAADE0047837B /* iPhone1,1_3.1.3.plist */,
+				CFA0891712FCAADE0047837B /* iPhone1,2_4.0.1.plist */,
+				CFA0891812FCAADE0047837B /* iPhone1,2_4.0.2.plist */,
+				CFA0891912FCAADE0047837B /* iPhone1,2_4.0.plist */,
+				CFA0891A12FCAADE0047837B /* iPhone1,2_4.1.plist */,
+				CFA0891B12FCAADE0047837B /* iPhone1,2_4.2.1.plist */,
+				CFA0891C12FCAADE0047837B /* iPhone2,1_4.0.1.plist */,
+				CFA0891D12FCAADE0047837B /* iPhone2,1_4.0.2.plist */,
+				CFA0891E12FCAADE0047837B /* iPhone2,1_4.0.plist */,
+				CFA0891F12FCAADE0047837B /* iPhone2,1_4.1.plist */,
+				CFA0892012FCAADE0047837B /* iPhone2,1_4.2.1.plist */,
+				CFA0892112FCAADE0047837B /* iPhone3,1_4.0.1.plist */,
+				CFA0892212FCAADE0047837B /* iPhone3,1_4.0.2.plist */,
+				CFA0892312FCAADE0047837B /* iPhone3,1_4.0.plist */,
+				CFA0892412FCAADE0047837B /* iPhone3,1_4.1.plist */,
+				CFA0892512FCAADE0047837B /* iPhone3,1_4.2.1.plist */,
+				CFA0892612FCAADE0047837B /* iPhone3,3_4.2.6.plist */,
+				CFA0892712FCAADE0047837B /* iPod1,1_3.0.plist */,
+				CFA0892812FCAADE0047837B /* iPod2,1_4.0.2.plist */,
+				CFA0892912FCAADE0047837B /* iPod2,1_4.0.plist */,
+				CFA0892A12FCAADE0047837B /* iPod2,1_4.1.plist */,
+				CFA0892B12FCAADE0047837B /* iPod2,1_4.2.1.plist */,
+				CFA0892C12FCAADE0047837B /* iPod3,1_4.0.2.plist */,
+				CFA0892D12FCAADE0047837B /* iPod3,1_4.0.plist */,
+				CFA0892E12FCAADE0047837B /* iPod3,1_4.1.plist */,
+				CFA0892F12FCAADE0047837B /* iPod3,1_4.2.1.plist */,
+				CFA0893012FCAADE0047837B /* iPod4,1_4.1.plist */,
+				CFA0893112FCAADE0047837B /* iPod4,1_4.2.1.plist */,
+				CFA0893212FCAADE0047837B /* iProd2,1_4.1.plist */,
+				CFA0893312FCAADE0047837B /* iProd2,1_4.2.plist */,
+				CFA0893412FCAADE0047837B /* keys_howto */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* FirmExtract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FirmExtract" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				CF9351CB12FF07B900D02C6A /* CopyFiles */,
+				CF9351F812FF0F8D00D02C6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirmExtract;
+			productInstallPath = "$(HOME)/Applications";
+			productName = FirmExtract;
+			productReference = 8D1107320486CEB800E47090 /* FirmExtract.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FirmExtract" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* FirmExtract */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* FirmExtract */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA089DB12FCAF9E0047837B /* dmg in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				CFA0888412FC9AAB0047837B /* iPhone.png in Resources */,
+				CFA0888812FC9BA10047837B /* ipsw.png in Resources */,
+				CFA0888C12FC9BBE0047837B /* ext.png in Resources */,
+				CFA0893512FCAADE0047837B /* AppleTV2,1_4.1.plist in Resources */,
+				CFA0893612FCAADE0047837B /* AppleTV2,1_4.2.plist in Resources */,
+				CFA0893712FCAADE0047837B /* blank_firmware_entry.plist in Resources */,
+				CFA0893812FCAADE0047837B /* iPad1,1_3.2.1.plist in Resources */,
+				CFA0893912FCAADE0047837B /* iPad1,1_3.2.2.plist in Resources */,
+				CFA0893A12FCAADE0047837B /* iPad1,1_3.2.plist in Resources */,
+				CFA0893B12FCAADE0047837B /* iPad1,1_4.2.1.plist in Resources */,
+				CFA0893C12FCAADE0047837B /* iPhone1,1_3.1.3.plist in Resources */,
+				CFA0893D12FCAADE0047837B /* iPhone1,2_4.0.1.plist in Resources */,
+				CFA0893E12FCAADE0047837B /* iPhone1,2_4.0.2.plist in Resources */,
+				CFA0893F12FCAADE0047837B /* iPhone1,2_4.0.plist in Resources */,
+				CFA0894012FCAADE0047837B /* iPhone1,2_4.1.plist in Resources */,
+				CFA0894112FCAADE0047837B /* iPhone1,2_4.2.1.plist in Resources */,
+				CFA0894212FCAADE0047837B /* iPhone2,1_4.0.1.plist in Resources */,
+				CFA0894312FCAADE0047837B /* iPhone2,1_4.0.2.plist in Resources */,
+				CFA0894412FCAADE0047837B /* iPhone2,1_4.0.plist in Resources */,
+				CFA0894512FCAADE0047837B /* iPhone2,1_4.1.plist in Resources */,
+				CFA0894612FCAADE0047837B /* iPhone2,1_4.2.1.plist in Resources */,
+				CFA0894712FCAADE0047837B /* iPhone3,1_4.0.1.plist in Resources */,
+				CFA0894812FCAADE0047837B /* iPhone3,1_4.0.2.plist in Resources */,
+				CFA0894912FCAADE0047837B /* iPhone3,1_4.0.plist in Resources */,
+				CFA0894A12FCAADE0047837B /* iPhone3,1_4.1.plist in Resources */,
+				CFA0894B12FCAADE0047837B /* iPhone3,1_4.2.1.plist in Resources */,
+				CFA0894C12FCAADE0047837B /* iPhone3,3_4.2.6.plist in Resources */,
+				CFA0894D12FCAADE0047837B /* iPod1,1_3.0.plist in Resources */,
+				CFA0894E12FCAADE0047837B /* iPod2,1_4.0.2.plist in Resources */,
+				CFA0894F12FCAADE0047837B /* iPod2,1_4.0.plist in Resources */,
+				CFA0895012FCAADE0047837B /* iPod2,1_4.1.plist in Resources */,
+				CFA0895112FCAADE0047837B /* iPod2,1_4.2.1.plist in Resources */,
+				CFA0895212FCAADE0047837B /* iPod3,1_4.0.2.plist in Resources */,
+				CFA0895312FCAADE0047837B /* iPod3,1_4.0.plist in Resources */,
+				CFA0895412FCAADE0047837B /* iPod3,1_4.1.plist in Resources */,
+				CFA0895512FCAADE0047837B /* iPod3,1_4.2.1.plist in Resources */,
+				CFA0895612FCAADE0047837B /* iPod4,1_4.1.plist in Resources */,
+				CFA0895712FCAADE0047837B /* iPod4,1_4.2.1.plist in Resources */,
+				CFA0895812FCAADE0047837B /* iProd2,1_4.1.plist in Resources */,
+				CFA0895912FCAADE0047837B /* iProd2,1_4.2.plist in Resources */,
+				CFA0895A12FCAADE0047837B /* keys_howto in Resources */,
+				CFA089D812FCAF5C0047837B /* xpwntool in Resources */,
+				CFDF183712FE287B0026B346 /* icon.icns in Resources */,
+				CF42683612FE5592000C2D46 /* help.helpindex in Resources */,
+				CF9351F012FF09B100D02C6A /* dsa_pub.pem in Resources */,
+				CFCFF6E813048D03001C01B3 /* atv2.png in Resources */,
+				CFCFF6E913048D03001C01B3 /* iPad.png in Resources */,
+				CFCFF6EA13048D03001C01B3 /* iPod.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF9351F812FF0F8D00D02C6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#set -o errexit\n\n[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\nVERSION=$(defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion)\nDOWNLOAD_BASE_URL=\"http://boxingsquirrel.tk/files/FirmExtract\"\nRELEASENOTES_URL=\"http://boxingsquirrel.tk/FirmExtractReleaseNotes.html#version-$VERSION\"\n\nARCHIVE_FILENAME=\"$PROJECT_NAME $VERSION.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nKEYCHAIN_PRIVKEY_NAME=\"SparkleFE\"\n\nWD=$PWD\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f \"$PROJECT_NAME\"*.zip\nditto -ck --keepParent \"$PROJECT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(LC_TIME=en_US date +\"%a, %d %b %G %T %z\")\nSIGNATURE=$(\n\topenssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" \\\n\t| openssl dgst -dss1 -sign <(security find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null | perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g' | perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))') \\\n\t| openssl enc -base64\n)\n\n[ $SIGNATURE ] || { echo Unable to load signing private key with name \"'$KEYCHAIN_PRIVKEY_NAME'\" from keychain; false; }\n\necho \"\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\" > newitem.xml";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* FirmExtractAppDelegate.m in Sources */,
+				CFA0889112FC9CFF0047837B /* Controller.m in Sources */,
+				CFA0889F12FC9E0F0047837B /* ZipArchive.mm in Sources */,
+				CFA088B012FC9E450047837B /* ioapi.c in Sources */,
+				CFA088B112FC9E450047837B /* mztools.c in Sources */,
+				CFA088B212FC9E450047837B /* unzip.c in Sources */,
+				CFA088B312FC9E450047837B /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FirmExtract_Prefix.pch;
+				INFOPLIST_FILE = "FirmExtract-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FirmExtract;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FirmExtract_Prefix.pch;
+				INFOPLIST_FILE = "FirmExtract-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = FirmExtract;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "FirmExtract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FirmExtract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

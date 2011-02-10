@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>icon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.boxingsquirrel.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4.2.6</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright 2011 boxingsquirrel. GPLv3.</string>
+	<key>CFAppleHelpAnchor</key>
+	<string>help.helpindex</string>
+	<key>SUPublicDSAKey</key>
+	<string>-----BEGIN PUBLIC KEY-----
+MIIDOjCCAi0GByqGSM44BAEwggIgAoIBAQCdPLdzBw/wlVgR5ztXQReDlyjepEba
+ethztCn8oTDBKqVxmiuDNgeOWFDJRIo6WBBUhILH5OUOTbbxDAkNAFxBb0BYJajq
+VbXMkHjWbXmFthQb1XN4PpwB4qKWcG6Cns/oX/BA8rbubbhLLY4UHLSI4vgVMAGC
+99B7r90PcY1kItE5nbc26z/prGQKeEjM64WIHt9cXd/wTn9fG4dUrgV4QNR31UmA
+Zw7KFXO4yuwKgBKFRWLGezP/Zg0epGAgtZYHOL5nOd8UYc7EncyX6DDS43b36lOE
+Y7VBP5StEYM4m3rB2PXDItxFoP391dyOd4FXC4ShukZKAyIS+3y7grXBAhUAqUmo
+qnFZB9K0Q09p/F3oEmwcIoMCggEANn7CGTGNtxDmi3CTnmxZUswIWqk47XFSIbRx
+lt1p4U9hyeyHuprXXyWrqTzuqA99hYzV8lRGJnFRKxwZBcgDzCc1pHiyUGQr5uq2
+yV+8P7OSMI0MfqFTaKYix9tUwkWu1OrdeA0EBOxGkA+qEV3z7zKqCILr0d3VODWW
+HA9RG1Xf169pQwqWLIUI3k8RHgzAnHAV6WEkj3xy7wlrxI84HdszEkuoOUrXtIYl
+IXVvpXHnWzNWWrntUVM/1iDvUG1Vz/CnJM8LPBQ7SkJVMTPu3bvbP4W0/Do3w92k
+Ut0nVqDANr3YHUDhNQlyeNZN3BInyYAIFq8myCMJPycoy1eBkAOCAQUAAoIBAEHI
+t7iZI6U1glTEaAqd/ns2l28ZQtzSDhXuKp+nXYngPT9LsQ6Iki7H14m7gd33phSY
+b6l1L2piqHghFYluKDrivvILnUbuoCvveCDFGQlbBJhrx30wQMYfqTpfUmc+Q3Oi
+fdH7wklZd6sbtH0G+YO+QXqMSw5sIsa9zxBh6rJz84cWYY2F6+p5L4sdXFdlgOuN
+h5CeSeAflb+r30nS3Bkt3yntxJ3SgmtSuNjdZTzpixxySZLhqM5sdS977LahcGlI
+Jz/DdD5azigys7ecXSYWyPaLF/u/GfE2Rd63bv+4ffNcemQil2f6j0yP6WQ4E/if
+uQvn5Ow/i7h9Olh+6+s=
+-----END PUBLIC KEY-----</string>
+	<key>SUFeedURL</key>
+	<string>http://boxingsquirrel.tk/files/FirmExtract/appcast.xml</string>
+	<key>SUExpectsDSASignature</key>
+	<true/>
+</dict>
+</plist>

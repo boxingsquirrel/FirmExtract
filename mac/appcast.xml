@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/"> 
+   <channel> 
+      <title>FirmExtract for Mac OS X</title> 
+      <link>http://boxingsquirrel.tk/files/FirmExtract/appcast.xml</link> 
+      <description>Recent changes and download links.</description> 
+      <language>en</language> 
+      <item> 
+        <title>Version 4.3</title> 
+        <sparkle:releaseNotesLink>http://boxingsquirrel.tk/files/FirmExtract/ReleaseNotes.html#version-4.3</sparkle:releaseNotesLink> 
+        <pubDate>Sun, 06 Feb 2011 13:14:19 -0500</pubDate> 
+        <enclosure url="http://boxingsquirrel.tk/files/FirmExtract/FirmExtract 4.3.zip" sparkle:version="4.3" type="application/octet-stream" length="1338966" sparkle:dsaSignature="MC0CFEtct1hNE9cB5YmTQc6XSFVh1AlsAhUAn87yPQDIF4VfFot+dTvmMjV6LNU="/> 
+      </item> 
+   </channel> 
+</rss>

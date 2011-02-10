@@ -1,138 +1,209 @@
 //
 //  Controller.m
-//  FirmExtract-OSX
+//  NanoFW
 //
 //  Created by boxingsquirrel on 11/18/10.
 //  Copyright 2010 N/A. All rights reserved.
 //
 
 #import "Controller.h"
-#import "MAAttachedWindow.h"
-#include "c-src/ipsw.h"
+#import "ZipArchive.h"
+#import <Foundation/NSBundle.h>
 
+// Filenames
 NSString *ipsw_fname=@"/Users/boxingsquirrel/Downloads/iPod2,1_4.0_8A293_Restore.ipsw";
 NSString *outdir_fname=@"/Users/boxingsquirrel/Desktop/dump";
 
-#define PLATFORM_CODE_IPHONE 0
-#define PLATFORM_CODE_IPOD 1;
-#define PLATFORM_CODE_IPAD 2;
-#define PLATFORM_CODE_ATV 3;
-
-int plat=PLATFORM_CODE_IPOD;
-
 @implementation Controller
+
+// Browse for an IPSW. Nothing more to say...
 -(IBAction)chooseIPSW:(id)sender {
 	NSOpenPanel *choose=[NSOpenPanel openPanel];
 	[choose setCanChooseFiles:YES];
 	[choose setCanChooseDirectories:NO];
-	//NSArray *types=[NSArray arrayWithObject:@"ipsw"];
-	//[choose setAllowedFileTypes:types];
 	[choose setTitle:@"Browse for IPSW..."];
 	if ([choose runModalForTypes:[NSArray arrayWithObject:@"ipsw"]] == NSOKButton)
 	{
 		NSArray *f=[choose filenames];
 		ipsw_fname=[f objectAtIndex:0];
 		[ipsw_fname retain];
-		FILE *file=fopen("/tmp/ipsw_loc.txt", "w");
-		fprintf(file, "%s", [ipsw_fname UTF8String]);
-		fclose(file);
-		NSLog(ipsw_fname);
 	}
 }
 
+// Browse for the output directory...
 -(IBAction)chooseOutDir:(id)sender {
 	NSOpenPanel *choose=[NSOpenPanel openPanel];
 	[choose setCanChooseFiles:NO];
 	[choose setCanChooseDirectories:YES];
+
+	// <evil>Show a "New Folder" button if supported...</evil>
+	if ([choose respondsToSelector:@selector(_setIncludeNewFolderButton:)]==YES) {
+		[choose _setIncludeNewFolderButton:YES];
+	}
+
 	[choose setTitle:@"Browse for Output Directory..."];
 	if ([choose runModalForDirectory:nil file:nil] == NSOKButton)
 	{
 		NSArray *f=[choose filenames];
 		outdir_fname=[f objectAtIndex:0];
 		[outdir_fname retain];
-		FILE *file=fopen("/tmp/out_loc.txt", "w");
-		fprintf(file, "%s", [outdir_fname UTF8String]);
-		fclose(file);
-		NSLog(outdir_fname);
 	}	
 }
 
+// Get the actual product given a raw BuildManifest in dictionary form...
+-(NSString *)getProductForBuildManifest:(NSDictionary *)man {
+	NSArray *prodTypes=[man objectForKey:@"SupportedProductTypes"];
+
+	// Jedi Mind Trick: the AppleTV actually has iProd2,1 listed first, so...
+	if ([[[prodTypes objectAtIndex:0] componentsSeparatedByString:@"Prod"] count]>1 && [prodTypes count]>1) {
+		return [prodTypes objectAtIndex:1];
+	} else {
+		return [prodTypes objectAtIndex:0];
+	}
+}
+
+// Get the version given a raw BuildManifest in NSDictionary form
+-(NSString *)getVersionForBuildManifest:(NSDictionary *)man {
+	return [man objectForKey:@"ProductVersion"];
+}
+
+// Get the actual product manifest (contents)
+-(NSDictionary *)getActualManifest:(NSDictionary *)man {
+	// Jedi mind trick: Everything but the AppleTV is the first build identity. AppleTV is the 4th.
+	if ([[[self getProductForBuildManifest:man] componentsSeparatedByString:@"AppleTV"] count]>1) {
+		return [[[man objectForKey:@"BuildIdentities"] objectAtIndex:2] objectForKey:@"Manifest"];		
+	}
+
+	return [[[man objectForKey:@"BuildIdentities"] objectAtIndex:0] objectForKey:@"Manifest"];
+}
+
+// Get the path of an IPSW component /in the output directory/
+-(NSString *)getPathForItem:(NSString *)what withManifest:(NSDictionary *)man {
+	// GlyphCharging==BattryCharging, just different terminology...
+	if ([what isEqualToString:@"GlyphCharging"]==YES) {
+		what=@"BatteryCharging";
+	}
+	// Same with GlyphPlugin and BatteryPlugin
+	if ([what isEqualToString:@"GlyphPlugin"]==YES) {
+		what=@"BatteryPlugin";
+	}
+
+	return [[[man objectForKey:what] objectForKey:@"Info"] objectForKey:@"Path"];
+}
+
+// Get the key from the keys manifest
+-(NSString *)getKeyForItem:(NSString *)what withKeys:(NSDictionary *)keys {
+	return [[keys objectForKey:what] objectForKey:@"Key"];
+}
+
+// Get the injection vector (IV) from the keys plist
+-(NSString *)getIVForItem:(NSString *)what withKeys:(NSDictionary *)keys {
+	return [[keys objectForKey:what] objectForKey:@"IV"];
+}
+
+// Decrypt an IMG3 file
+-(BOOL)decryptIMG3:(NSString *)what withKeys:(NSDictionary *)keys withManifest:(NSDictionary *)man {
+	// Some variables...
+	NSString *img3path=[NSString stringWithFormat:@"%@/%@", outdir_fname, [self getPathForItem:what withManifest:man]];
+	NSString *scratchPath=[NSString stringWithFormat:@"%@/scratch.img3", outdir_fname];
+	NSString *key=[self getKeyForItem:what withKeys:keys];
+	NSString *iv=[self getIVForItem:what withKeys:keys];
+
+	// The command to execute (cheating & doing it with xpwntool ftw!)
+	NSString *cmd=[NSString stringWithFormat:@"\"%@\" '%@' '%@' -k %@ -iv %@", [[NSBundle mainBundle] pathForResource:@"xpwntool" ofType:@""], img3path, scratchPath, key, iv];
+	system((const char *)[cmd UTF8String]);
+	system((const char *)[[NSString stringWithFormat:@"mv \"%@\" \"%@\"", scratchPath, img3path] UTF8String]);
+	return YES;
+}
+
+// Really the same as IMG3 decryption, just using scratch.dmg, not scratch.img3
+-(BOOL)decryptRamDisk:(NSString *)what withKeys:(NSDictionary *)keys withManifest:(NSDictionary *)man {
+	// Some variables...
+	NSString *img3path=[NSString stringWithFormat:@"%@/%@", outdir_fname, [self getPathForItem:what withManifest:man]];
+	NSString *scratchPath=[NSString stringWithFormat:@"%@/scratch.dmg", outdir_fname];
+	NSString *key=[self getKeyForItem:what withKeys:keys];
+	NSString *iv=[self getIVForItem:what withKeys:keys];
+	
+	// The command to execute (cheating & doing it with xpwntool ftw!)
+	NSString *cmd=[NSString stringWithFormat:@"\"%@\" '%@' '%@' -k %@ -iv %@", [[NSBundle mainBundle] pathForResource:@"xpwntool" ofType:@""], img3path, scratchPath, key, iv];
+	system((const char *)[cmd UTF8String]);
+	system((const char *)[[NSString stringWithFormat:@"mv \"%@\" \"%@\"", scratchPath, img3path] UTF8String]);
+	return YES;
+}
+
+// Uses dmg (from xpwn) to extract the iOS root filesystem
+-(BOOL)decryptFilesystem:(NSString *)what withKeys:(NSDictionary *)keys withManifest:(NSDictionary *)man {
+	// Some variables...
+	NSString *dmgpath=[NSString stringWithFormat:@"%@/%@", outdir_fname, [self getPathForItem:what withManifest:man]];
+	NSString *scratchPath=[NSString stringWithFormat:@"%@/scratch.dmg", outdir_fname];
+	NSString *key=[self getKeyForItem:what withKeys:keys];
+
+	// The command to execute (cheating & doing it with dmg ftw!)
+	NSString *cmd=[NSString stringWithFormat:@"\"%@\" extract '%@' '%@' -k %@", [[NSBundle mainBundle] pathForResource:@"dmg" ofType:@""], dmgpath, scratchPath, key];
+	NSLog(@"%@", cmd);
+	system((const char *)[cmd UTF8String]);
+	system((const char *)[[NSString stringWithFormat:@"mv '%@' '%@'", scratchPath, dmgpath] UTF8String]);
+	return YES;
+}
+
+// Decrypt the IPSW contents in the given output directory
+-(void)decryptContents:(NSString *)outdir withKeys:(NSDictionary *)keys withManifest:(NSDictionary *)man {
+	NSDictionary *manifest=[self getActualManifest:man];
+	[self decryptFilesystem:@"OS" withKeys:keys withManifest:manifest];
+	[pBar setDoubleValue:80.0];
+	[self decryptRamDisk:@"RestoreRamDisk" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"AppleLogo" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"BatteryCharging0" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"BatteryCharging1" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"BatteryFull" withKeys:keys withManifest:manifest];
+	[pBar setDoubleValue:85.0];
+	[self decryptIMG3:@"BatteryLow0" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"BatteryLow1" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"DeviceTree" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"GlyphCharging" withKeys:keys withManifest:manifest];
+	[pBar setDoubleValue:90.0];
+	[self decryptIMG3:@"GlyphPlugin" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"BatteryCharging0" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"iBEC" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"iBoot" withKeys:keys withManifest:manifest];
+	[pBar setDoubleValue:95.0];
+	[self decryptIMG3:@"iBSS" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"KernelCache" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"LLB" withKeys:keys withManifest:manifest];
+	[self decryptIMG3:@"RecoveryMode" withKeys:keys withManifest:manifest];
+}
+
+// Extract button callback
 -(IBAction)decrypt:(id)sender {
-	NSBeep();
-	NSString *filePath = [[NSBundle mainBundle] bundlePath];
-	FILE *file=fopen("/tmp/bundle_loc.txt", "w");
-	fprintf(file, "%s", [filePath UTF8String]);
-	fclose(file);
-	[filePath retain];
-	//[ipsw_fname writeToFile:@"/tmp/ipsw.txt"];
-	//[outdir_fname writeToFile:@"/tmp/out.txt"];
-	//ipsw=(const char *)[ipsw_fname UTF8String];
-	//out_dir=[outdir_fname UTF8String];
-	ipsw_extract_all([ipsw_fname UTF8String], [outdir_fname UTF8String], [filePath UTF8String], 0, NULL, NULL);
-}
+	// Set up the progress bar
+	[pBar setUsesThreadedAnimation:YES];
+	[pBar displayIfNeeded];
+	[pBar setDoubleValue:10.0];
 
--(IBAction)setiPhone:(id)sender {
-	plat=PLATFORM_CODE_IPHONE;
-	[awin retain];
-	awin=[[MAAttachedWindow alloc] initWithView:iPhone_box attachedToPoint:NSMakePoint(NSMidX([[view window] frame])-(212/2), NSMidY([[view window] frame])-(48/2)) inWindow:[view window]];
-	[awin setHasArrow:0];
-	NSColor *c=[NSColor colorWithCalibratedRed:0 green:0 blue:1.0 alpha:1.0];
-	[awin setBackgroundColor:c];
-	[[outDirButton1 cell] setBackgroundColor:c];
-	[[outDirButtonIcon1 cell] setBackgroundColor:c];
-	[[decButton1 cell] setBackgroundColor:c];
-	[[decButtonIcon1 cell] setBackgroundColor:c];
-	[[ipswButton1 cell] setBackgroundColor:c];
-	[[ipswButtonIcon1 cell] setBackgroundColor:c];
-	[[view window] addChildWindow:awin ordered:NSWindowAbove];
-}
+	// Extract the IPSW to the output directory
+	ZipArchive *za=[[ZipArchive alloc] init];
+	[za UnzipOpenFile:ipsw_fname];
+	[za UnzipFileTo:outdir_fname overWrite:YES];
+	[za release];
 
--(IBAction)setiPod:(id)sender {
-	plat=PLATFORM_CODE_IPOD;
-	[awin retain];
-	awin=[[MAAttachedWindow alloc] initWithView:iPod_box attachedToPoint:NSMakePoint(NSMidX([[view window] frame])-(212/2), NSMidY([[view window] frame])-(48/2)) inWindow:[view window]];
-	[awin setHasArrow:0];
-	NSColor *c=[NSColor colorWithCalibratedRed:1.0 green:0.25 blue:0.1 alpha:1.0];
-	[awin setBackgroundColor:c];
-	[[outDirButton2 cell] setBackgroundColor:c];
-	[[outDirButtonIcon2 cell] setBackgroundColor:c];
-	[[decButton2 cell] setBackgroundColor:c];
-	[[decButtonIcon2 cell] setBackgroundColor:c];
-	[[ipswButton2 cell] setBackgroundColor:c];
-	[[ipswButtonIcon2 cell] setBackgroundColor:c];
-	[[view window] addChildWindow:awin ordered:NSWindowAbove];
-}
+	// Decryption now...
+	[pBar setDoubleValue:50.0];
+	NSDictionary *buildManifest=[NSDictionary dictionaryWithContentsOfFile:[NSString stringWithFormat:@"%@/BuildManifest.plist", outdir_fname]];
+	NSString *prod=[self getProductForBuildManifest:buildManifest];
+	NSString *ver=[self getVersionForBuildManifest:buildManifest];
+	NSString *target=[NSString stringWithFormat:@"%@_%@", prod, ver];
+	NSString *plpath=[[NSBundle mainBundle] pathForResource:target ofType:@"plist"];
+	NSDictionary *keys=[NSDictionary dictionaryWithContentsOfFile:plpath];
+	keys=[keys objectForKey:target];
+	[self decryptContents:outdir_fname withKeys:keys withManifest:buildManifest];
+	[pBar setDoubleValue:100.0];
 
--(IBAction)setiPad:(id)sender {
-	plat=PLATFORM_CODE_IPAD;
-	[awin retain];
-	awin=[[MAAttachedWindow alloc] initWithView:iPad_box attachedToPoint:NSMakePoint(NSMidX([[view window] frame])-(212/2), NSMidY([[view window] frame])-(48/2)) inWindow:[view window]];
-	[awin setHasArrow:0];
-	NSColor *c=[NSColor colorWithCalibratedRed:0 green:0.5 blue:0 alpha:1.0];
-	[awin setBackgroundColor:c];
-	[[outDirButton cell] setBackgroundColor:c];
-	[[outDirButtonIcon cell] setBackgroundColor:c];
-	[[decButton cell] setBackgroundColor:c];
-	[[decButtonIcon cell] setBackgroundColor:c];
-	[[ipswButton cell] setBackgroundColor:c];
-	[[ipswButtonIcon cell] setBackgroundColor:c];
-	[[view window] addChildWindow:awin ordered:NSWindowAbove];
-	//[view addSubview:attached];
-}
-
--(IBAction)showCredits:(id)sender {
-	[awin retain];
-	awin=[[MAAttachedWindow alloc] initWithView:credits_box attachedToPoint:NSMakePoint(NSMidX([[view window] frame])-(212/2), NSMidY([[view window] frame])-(48/2)) inWindow:[view window]];
-	[awin setHasArrow:0];
-	NSColor *c=[NSColor colorWithCalibratedRed:0 green:0.5 blue:0 alpha:1.0];
-	[awin setBackgroundColor:c];
-	[[view window] addChildWindow:awin ordered:NSWindowAbove];	
-}
-
--(IBAction)close_box:(id)sender {
-	[[view window] removeChildWindow:awin];
-	[awin orderOut:self];
-	[awin release];
-	awin=nil;
+	// Done, show an alert to that effect...
+	NSAlert *a=[[NSAlert alloc] init];
+	[a addButtonWithTitle:@"OK"];
+	[a setMessageText:@"Done!"];
+	[a setInformativeText:@"The IPSW was extracted!"];
+	[a setAlertStyle:NSWarningAlertStyle];
+	[a beginSheetModalForWindow:win modalDelegate:nil didEndSelector:nil contextInfo:nil];
 }
 @end
