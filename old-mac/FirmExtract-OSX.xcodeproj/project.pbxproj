@@ -94,6 +94,8 @@
 		CF8E5564129DCE830076798A /* iPad1,1_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8E5563129DCE830076798A /* iPad1,1_4.2.1.plist */; };
 		CF8E5565129DCEB40076798A /* iPad1,1_4.2.1.plist in Copy keys */ = {isa = PBXBuildFile; fileRef = CF8E5563129DCE830076798A /* iPad1,1_4.2.1.plist */; };
 		CF91D84A1299E2C300F7DCEF /* baseband.c in Sources */ = {isa = PBXBuildFile; fileRef = CF91D8491299E2C300F7DCEF /* baseband.c */; };
+		CF9351EB12FB59D00053AA19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9351EA12FB59D00053AA19 /* Foundation.framework */; };
+		CF93521612FB5B9D0053AA19 /* iPhone3,3_4.2.6.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF93521512FB5B9D0053AA19 /* iPhone3,3_4.2.6.plist */; };
 		CFA48796129EDC8200717ECB /* iPhone1,2_4.2.1.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA48795129EDC8200717ECB /* iPhone1,2_4.2.1.plist */; };
 		CFA4D73F12AC56F70066D356 /* iPad1,1_3.2.2.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFA4D73E12AC56F70066D356 /* iPad1,1_3.2.2.plist */; };
 		CFA4D74012AC570D0066D356 /* iPad1,1_3.2.2.plist in Copy keys */ = {isa = PBXBuildFile; fileRef = CFA4D73E12AC56F70066D356 /* iPad1,1_3.2.2.plist */; };
@@ -236,6 +238,8 @@
 		CF8E5563129DCE830076798A /* iPad1,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_4.2.1.plist"; sourceTree = "<group>"; };
 		CF91D8481299E2C300F7DCEF /* baseband.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseband.h; sourceTree = "<group>"; };
 		CF91D8491299E2C300F7DCEF /* baseband.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = baseband.c; sourceTree = "<group>"; };
+		CF9351EA12FB59D00053AA19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF93521512FB5B9D0053AA19 /* iPhone3,3_4.2.6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iPhone3,3_4.2.6.plist"; path = "data/iPhone3,3_4.2.6.plist"; sourceTree = "<group>"; };
 		CFA48795129EDC8200717ECB /* iPhone1,2_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iPhone1,2_4.2.1.plist"; path = "data/iPhone1,2_4.2.1.plist"; sourceTree = "<group>"; };
 		CFA4D73E12AC56F70066D356 /* iPad1,1_3.2.2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPad1,1_3.2.2.plist"; sourceTree = "<group>"; };
 		CFB8A89E129EB069008A442C /* iPod4,1_4.2.1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "iPod4,1_4.2.1.plist"; path = "data/iPod4,1_4.2.1.plist"; sourceTree = SOURCE_ROOT; };
@@ -251,6 +255,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				8507E64E12D0E7B0003809D2 /* libz.1.1.3.dylib in Frameworks */,
 				8507E65012D0E7B0003809D2 /* libzip.1.dylib in Frameworks */,
+				CF9351EB12FB59D00053AA19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				256AC3D80F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.h */,
+				CF93521512FB5B9D0053AA19 /* iPhone3,3_4.2.6.plist */,
 				256AC3D90F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.m */,
 			);
 			name = Classes;
@@ -320,6 +326,7 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8507E64D12D0E7B0003809D2 /* libz.1.1.3.dylib */,
 				8507E64F12D0E7B0003809D2 /* libzip.1.dylib */,
+				CF9351EA12FB59D00053AA19 /* Foundation.framework */,
 			);
 			name = "FirmExtract-OSX";
 			sourceTree = "<group>";
@@ -528,6 +535,7 @@
 				CF56067712BAEF1C00E88DEF /* iPhone2,1_4.2.1.plist in Resources */,
 				CF56067812BAEF1C00E88DEF /* iPod2,1_4.2.1.plist in Resources */,
 				CF56067912BAEF1C00E88DEF /* iPod3,1_4.2.1.plist in Resources */,
+				CF93521612FB5B9D0053AA19 /* iPhone3,3_4.2.6.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

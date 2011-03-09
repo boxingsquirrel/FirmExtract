@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Foundation/NSObject.h>
 
 @interface FirmExtract_OSXAppDelegate : NSObject <NSApplicationDelegate> {
     NSWindow *window;

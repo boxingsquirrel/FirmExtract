@@ -2,16 +2,16 @@
 {
 	256AC3D80F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {530, 234}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 328}";
+			sepNavIntBoundsRect = "{{0, 0}, {530, 247}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{150, 158}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {526, 286}}";
-			sepNavSelRange = "{189, 0}";
-			sepNavVisRange = "{0, 234}";
+			sepNavIntBoundsRect = "{{0, 0}, {509, 247}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 328}";
 			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
 		};
 	};
@@ -72,14 +72,15 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 316472124;
-			PBXWorkspaceStateSaveDate = 316472124;
+			PBXPerProjectTemplateStateSaveDate = 318462306;
+			PBXWorkspaceStateSaveDate = 318462306;
 		};
 		perUserProjectItems = {
-			CF45A5C912DCFBF5000CDCCA /* PBXTextBookmark */ = CF45A5C912DCFBF5000CDCCA /* PBXTextBookmark */;
 			CF5606AF12BB05E600E88DEF /* PBXTextBookmark */ = CF5606AF12BB05E600E88DEF /* PBXTextBookmark */;
 			CF5606BE12BB068800E88DEF /* PBXTextBookmark */ = CF5606BE12BB068800E88DEF /* PBXTextBookmark */;
-			CF5606DB12BB07EB00E88DEF /* PBXTextBookmark */ = CF5606DB12BB07EB00E88DEF /* PBXTextBookmark */;
+			CF91F01D12ECA8DC002DD48F /* PBXTextBookmark */ = CF91F01D12ECA8DC002DD48F /* PBXTextBookmark */;
+			CF9351F212FB5A040053AA19 /* XCBuildMessageTextBookmark */ = CF9351F212FB5A040053AA19 /* XCBuildMessageTextBookmark */;
+			CF93521B12FB69870053AA19 /* PBXTextBookmark */ = CF93521B12FB69870053AA19 /* PBXTextBookmark */;
 		};
 		sourceControlManager = CF7A3D1D12985602005D1960 /* Source Control */;
 		userBuildSettings = {
@@ -104,21 +105,17 @@
 			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
 		};
 	};
-	CF45A5C912DCFBF5000CDCCA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CF45A5CA12DCFBF5000CDCCA /* cstdarg */;
-		name = "cstdarg: 55";
-		rLen = 14;
-		rLoc = 2050;
-		rType = 0;
-		vrLen = 150;
-		vrLoc = 1938;
-	};
 	CF45A5CA12DCFBF5000CDCCA /* cstdarg */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
 		name = cstdarg;
 		path = "/usr/include/c++/4.0.0/cstdarg";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {551, 793}}";
+			sepNavSelRange = "{2050, 0}";
+			sepNavVisRange = "{1917, 178}";
+		};
 	};
 	CF5606AF12BB05E600E88DEF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -139,23 +136,6 @@
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 576;
-	};
-	CF5606C012BB068800E88DEF /* cstdarg */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.cpp.h;
-		name = cstdarg;
-		path = "/usr/include/c++/4.0.0/cstdarg";
-		sourceTree = "<absolute>";
-	};
-	CF5606DB12BB07EB00E88DEF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = CF5606C012BB068800E88DEF /* cstdarg */;
-		name = "cstdarg: 55";
-		rLen = 14;
-		rLoc = 2050;
-		rType = 0;
-		vrLen = 148;
-		vrLoc = 1939;
 	};
 	CF7A3D0C129855FB005D1960 /* FirmExtract-OSX */ = {
 		isa = PBXExecutable;
@@ -278,5 +258,34 @@
 			sepNavVisRange = "{217, 634}";
 			sepNavWindowFrame = "{{284, 165}, {750, 558}}";
 		};
+	};
+	CF91F01D12ECA8DC002DD48F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CF45A5CA12DCFBF5000CDCCA /* cstdarg */;
+		name = "cstdarg: 55";
+		rLen = 14;
+		rLoc = 2050;
+		rType = 0;
+		vrLen = 147;
+		vrLoc = 1938;
+	};
+	CF9351F212FB5A040053AA19 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Cannot find interface declaration for 'NSObject', superclass of 'FirmExtract_OSXAppDelegate'";
+		fRef = 256AC3D80F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 11;
+		rType = 1;
+	};
+	CF93521B12FB69870053AA19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* FirmExtract_OSXAppDelegate.h */;
+		name = "FirmExtract_OSXAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 158;
+		vrLoc = 150;
 	};
 }

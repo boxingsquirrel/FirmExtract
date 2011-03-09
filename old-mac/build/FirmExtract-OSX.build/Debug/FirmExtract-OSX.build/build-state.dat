@@ -1,0 +1,1784 @@
+TFirmExtract-OSX
+v7
+r0
+t318462883.348773
+cCheck dependencies
+cProcessInfoPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Info.plist FirmExtract_OSX-Info.plist
+cCopyStringsFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib
+cCompileXIB /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png c-src/ipsw.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png ipsw.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/firmextract.icns firmextract.icns
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/dmg dmg
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad.png iPad.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/atv2.png atv2.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone.png iPhone.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod.png iPod.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPadorATV.png iPadorATV.png
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/xpwntool xpwntool
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ext.png ext.png
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist data/AppleTV2,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist data/AppleTV2,1_4.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist data/iPad1,1_3.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist data/iPad1,1_3.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist data/iPhone1,1_3.1.3.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist data/iPhone1,2_4.0.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist data/iPhone1,2_4.0.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist data/iPhone1,2_4.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist data/iPhone1,2_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist data/iPhone2,1_4.0.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist data/iPhone2,1_4.0.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist data/iPhone2,1_4.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist data/iPhone2,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist data/iPhone3,1_4.0.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist data/iPhone3,1_4.0.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist data/iPhone3,1_4.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist data/iPhone3,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist data/iPod1,1_3.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist data/iPod2,1_4.0.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist data/iPod2,1_4.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist data/iPod2,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist data/iPod3,1_4.0.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist data/iPod3,1_4.0.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist data/iPod3,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist data/iPod4,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist data/iProd2,1_4.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist data/iProd2,1_4.2.plist
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto data/keys_howto
+cCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/icons.icns icons.icns
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist data/iPad1,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.2.1.plist data/iPod4,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.2.1.plist data/iPhone3,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.2.1.plist data/iPhone1,2_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist data/iPad1,1_3.2.2.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.2.1.plist data/iPhone2,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.2.1.plist data/iPod2,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.2.1.plist data/iPod3,1_4.2.1.plist
+cCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,3_4.2.6.plist data/iPhone3,3_4.2.6.plist
+cProcessPCH /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch.gch FirmExtract_OSX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch.gch FirmExtract_OSX_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/main.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract_OSXAppDelegate.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/file.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ipsw.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ui.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/Controller.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/MAAttachedWindow.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/baseband.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX normal i386
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/MacOS/dmg dmg
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/MacOS/xpwntool xpwntool
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist data/AppleTV2,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist data/AppleTV2,1_4.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist data/iPad1,1_3.2.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist data/iPad1,1_3.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist data/iPhone1,1_3.1.3.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist data/iPhone1,2_4.0.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist data/iPhone1,2_4.0.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist data/iPhone1,2_4.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist data/iPhone1,2_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist data/iPhone2,1_4.0.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist data/iPhone2,1_4.0.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist data/iPhone2,1_4.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist data/iPhone2,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist data/iPhone3,1_4.0.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist data/iPhone3,1_4.0.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist data/iPhone3,1_4.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist data/iPhone3,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist data/iPod1,1_3.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist data/iPod2,1_4.0.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist data/iPod2,1_4.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist data/iPod2,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist data/iPod3,1_4.0.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist data/iPod3,1_4.0.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist data/iPod3,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist data/iPod4,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist data/iProd2,1_4.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist data/iProd2,1_4.2.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto data/keys_howto
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist data/iPad1,1_4.2.1.plist
+cPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist data/iPad1,1_3.2.2.plist
+cTouch /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CAA740400000000000C7160
+t1286239236
+s815456
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004C23AA050000000000000EDE
+t1277405701
+s3806
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004C2399480000000000004A1D
+t1277401416
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/libz.1.1.3.dylib
+c000000004CAA740A0000000000005D2C
+t1286239242
+s23852
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/local/lib/libzip.1.dylib
+c000000004CE6F6AB000000000000BCC8
+t1290204843
+s48328
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.h
+c000000004CEE98D800000000000004FB
+t1290705112
+s1275
+i<Cocoa/Cocoa.h>
+i"MAAttachedWindow.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m
+c000000004D0ACA9D0000000000001351
+t1292552861
+s4945
+i"Controller.h"
+i"MAAttachedWindow.h"
+i"c-src/ipsw.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/InfoPlist.strings
+c000000004CE815EB000000000000002D
+t1290278379
+s45
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib
+c000000004D2CC276000000000002303E
+t1294778998
+s143422
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.h
+c000000004D4B23B10000000000000168
+t1296769969
+s360
+i<Cocoa/Cocoa.h>
+i<Foundation/NSObject.h>
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m
+c000000004CEC3CE10000000000000185
+t1290550497
+s389
+i"FirmExtract_OSXAppDelegate.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX_Prefix.pch
+c000000004CE81E7B00000000000000A1
+t1290280571
+s161
+i<Cocoa/Cocoa.h>
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.h
+c0000000048106F250000000000001F0D
+t1209036581
+s7949
+i<Cocoa/Cocoa.h>
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m
+c0000000048446CCD00000000000073C9
+t1212443853
+s29641
+i"MAAttachedWindow.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/atv2.png
+c000000004CE84ECD000000000000584C
+t1290292941
+s22604
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app
+t1296770083
+s102
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Info.plist
+t1295806801
+s972
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX
+t1296770059
+s70660
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/dmg
+t1295806811
+s157648
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/xpwntool
+t1295806811
+s68272
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/PkgInfo
+t1295806801
+s8
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist
+t1296770082
+s3877
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist
+t1296770082
+s3960
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1295806801
+s92
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/MainMenu.nib
+t1295806802
+s25773
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/atv2.png
+t1295806802
+s22604
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/dmg
+t1295806802
+s157648
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/ext.png
+t1295806802
+s11164
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/firmextract.icns
+t1295806802
+s54116
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad.png
+t1295806802
+s43583
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist
+t1296770082
+s2395
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist
+t1296770083
+s3805
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist
+t1296770082
+s2746
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist
+t1296770083
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPadorATV.png
+t1295806802
+s42162
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone.png
+t1295806802
+s68600
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist
+t1296770082
+s2778
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist
+t1296770082
+s2654
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist
+t1296770082
+s2654
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist
+t1296770082
+s2776
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist
+t1296770082
+s2496
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.2.1.plist
+t1295806803
+s2829
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist
+t1296770082
+s3408
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist
+t1296770083
+s4066
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist
+t1296770083
+s3406
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist
+t1296770083
+s3313
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.2.1.plist
+t1295806803
+s3303
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist
+t1296770083
+s2491
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist
+t1296770083
+s2397
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist
+t1296770083
+s2395
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist
+t1296770083
+s4064
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.2.1.plist
+t1295806803
+s4055
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,3_4.2.6.plist
+t1296770080
+s4055
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod.png
+t1295806802
+s60600
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist
+t1296770083
+s2588
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist
+t1296770083
+s2652
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist
+t1296770083
+s3456
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist
+t1296770083
+s2958
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.2.1.plist
+t1295806803
+s3509
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist
+t1296770083
+s4064
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist
+t1296770083
+s3966
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist
+t1296770083
+s3310
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.2.1.plist
+t1295806803
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist
+t1296770083
+s4062
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.2.1.plist
+t1295806803
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist
+t1296770083
+s3875
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist
+t1296770083
+s3958
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/icons.icns
+t1295806803
+s166978
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png
+t1296770082
+s9466
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto
+t1295806811
+s488
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/xpwntool
+t1295806802
+s68272
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/Controller.o
+t1295806810
+s34532
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract-OSX.LinkFileList
+c000000004D3C71510000000000000472
+t1295806801
+s1138
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract_OSXAppDelegate.o
+t1296770059
+s15408
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/MAAttachedWindow.o
+t1295806810
+s59976
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/baseband.o
+t1295806810
+s3780
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/file.o
+t1295806809
+s4348
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ipsw.o
+t1295806809
+s33380
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/main.o
+t1295806809
+s4884
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ui.o
+t1295806809
+s2288
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c
+c000000004CF2A8F80000000000000353
+t1290971384
+s851
+i<stdlib.h>
+i"baseband.h"
+i"ipsw.h"
+i"ipsw_t.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.h
+c000000004CEE97D9000000000000014C
+t1290704857
+s332
+i"ipsw.h"
+i"ipsw_t.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/decrypt_img3.h
+c000000004CE334F2000000000000004B
+t1289958642
+s75
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c
+c000000004CE334F20000000000000244
+t1289958642
+s580
+i<stdio.h>
+i<stdint.h>
+i<sys/stat.h>
+i"file.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.h
+c000000004CE334F20000000000000083
+t1289958642
+s131
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c
+c000000004D2CBF5A00000000000063F8
+t1294778202
+s25592
+i<zip.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<sys/stat.h>
+i"ipsw.h"
+i"file.h"
+i"decrypt_img3.h"
+i"ui.h"
+i"util.h"
+i"baseband.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.h
+c000000004D2CBF5A0000000000000F19
+t1294778202
+s3865
+i<zip.h>
+i<stdint.h>
+i<plist/plist.h>
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.png
+c000000004CE334F200000000000024FA
+t1289958642
+s9466
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw_t.h
+c000000004CE334F20000000000000358
+t1289958642
+s856
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c
+c000000004CE81BDB0000000000000731
+t1290279899
+s1841
+i"ui.h"
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.h
+c000000004CE81B820000000000000175
+t1290279810
+s373
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/util.h
+c000000004CE334F20000000000000028
+t1289958642
+s40
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.1.plist
+c000000004CE334F20000000000000F25
+t1289958642
+s3877
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.2.plist
+c000000004CED387B0000000000000F78
+t1290614907
+s3960
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.1.plist
+c000000004CE334F2000000000000095B
+t1289958642
+s2395
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.2.plist
+c000000004CE334F20000000000000EDD
+t1289958642
+s3805
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.plist
+c000000004CE334F20000000000000ABA
+t1289958642
+s2746
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_4.2.1.plist
+c000000004CED97A30000000000000FD5
+t1290639267
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,1_3.1.3.plist
+c000000004CE334F20000000000000ADA
+t1289958642
+s2778
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.1.plist
+c000000004CE334F20000000000000A5E
+t1289958642
+s2654
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.2.plist
+c000000004CE334F20000000000000A5E
+t1289958642
+s2654
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.plist
+c000000004CE334F20000000000000AD8
+t1289958642
+s2776
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.1.plist
+c000000004CE334F200000000000009C0
+t1289958642
+s2496
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.2.1.plist
+c000000004CEEA4F30000000000000B0D
+t1290708211
+s2829
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.1.plist
+c000000004CE334F20000000000000D50
+t1289958642
+s3408
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.2.plist
+c000000004CE334F20000000000000FE2
+t1289958642
+s4066
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.plist
+c000000004CE334F20000000000000D4E
+t1289958642
+s3406
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.1.plist
+c000000004CE334F20000000000000CF1
+t1289958642
+s3313
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.2.1.plist
+c000000004D0A82550000000000000CE7
+t1292534357
+s3303
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.1.plist
+c000000004CE334F200000000000009BB
+t1289958642
+s2491
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.2.plist
+c000000004CE334F2000000000000095D
+t1289958642
+s2397
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.plist
+c000000004CE334F2000000000000095B
+t1289958642
+s2395
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.1.plist
+c000000004CE334F20000000000000FE0
+t1289958642
+s4064
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.2.1.plist
+c000000004CEE7C700000000000000FD7
+t1290697840
+s4055
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,3_4.2.6.plist
+c000000004D4B212E0000000000000FD7
+t1296769326
+s4055
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod1,1_3.0.plist
+c000000004CE334F20000000000000A1C
+t1289958642
+s2588
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.2.plist
+c000000004CE334F20000000000000A5C
+t1289958642
+s2652
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.plist
+c000000004CE334F20000000000000D80
+t1289958642
+s3456
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.1.plist
+c000000004CE334F20000000000000B8E
+t1289958642
+s2958
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.2.1.plist
+c000000004D0A89A50000000000000DB5
+t1292536229
+s3509
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.2.plist
+c000000004CE334F20000000000000FE0
+t1289958642
+s4064
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.plist
+c000000004CE334F20000000000000F7E
+t1289958642
+s3966
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.1.plist
+c000000004CE334F20000000000000CEE
+t1289958642
+s3310
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.2.1.plist
+c000000004D0AACEF0000000000000FD5
+t1292545263
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.1.plist
+c000000004CE334F20000000000000FDE
+t1289958642
+s4062
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.2.1.plist
+c000000004CEE78CA0000000000000FD5
+t1290696906
+s4053
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.1.plist
+c000000004CE334F20000000000000F23
+t1289958642
+s3875
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.2.plist
+c000000004CED38970000000000000F76
+t1290614935
+s3958
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/keys_howto
+c000000004CE334F200000000000001E8
+t1289958642
+s488
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/dmg
+c000000004CE8253D00000000000267D0
+t1290282301
+s157648
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ext.png
+c000000004CEADCC20000000000002B9C
+t1290460354
+s11164
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/firmextract.icns
+c000000004CE454D8000000000000D364
+t1290032344
+s54116
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPad.png
+c000000004CE84EC1000000000000AA3F
+t1290292929
+s43583
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPadorATV.png
+c000000004CE99D54000000000000A4B2
+t1290378580
+s42162
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPhone.png
+c000000004CE84EF70000000000010BF8
+t1290292983
+s68600
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPod.png
+c000000004CE85148000000000000ECB8
+t1290293576
+s60600
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/icons.icns
+c000000004CED760E0000000000028C42
+t1290630670
+s166978
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ipsw.png
+c000000004CEC455100000000000132FC
+t1290552657
+s78588
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m
+c000000004CE81E7B00000000000000FA
+t1290280571
+s250
+i<Cocoa/Cocoa.h>
+
+N/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/xpwntool
+c000000004CE825400000000000010AB0
+t1290282304
+s68272
+
+N/usr/local/include/plist/plist.h
+c000000004CE44502000000000000496E
+t1290028290
+s18798
+
+N/usr/local/include/zip.h
+c000000004CE6F6AC000000000000255B
+t1290204844
+s9563
+
+N/var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch.gch
+t1295806809
+s56932144
+
+N/var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch.gch
+t1295806803
+s2187632
+
+NFirmExtract_OSX-Info.plist
+c000000004CED764800000000000003E6
+t1290630728
+s998
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318462882#318462882#0(5560"[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist[WARN]Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto31(22@162"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist318462882#18446744073709551615#0#0(1@0"0(22@174"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@174"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist318462882#18446744073709551615#0#0(1@0"0(22@175"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@173"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@171"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@172"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist318462882#18446744073709551615#0#0(1@0"0(22@172"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist318462882#18446744073709551615#0#0(1@0"0(22@164"Warning: Multiple build commands for output file /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto318462882#18446744073709551615#0#0(1@0"0(0#1#0"8664765568#0"0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/Controller.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317499609.819534
+e317499610.093770
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/Controller.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller chooseIPSW:]':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:39: warning: format not a string literal and no format arguments
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller chooseOutDir:]':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:56: warning: format not a string literal and no format arguments
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller decrypt:]':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 1 of 'ipsw_extract_all' discards qualifiers from pointer target type
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 2 of 'ipsw_extract_all' discards qualifiers from pointer target type
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 3 of 'ipsw_extract_all' discards qualifiers from pointer target type
+lSLF07#2@74"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m317499609#317499610#0(1088"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller chooseIPSW:]':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:39: warning: format not a string literal and no format arguments/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller chooseOutDir:]':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:56: warning: format not a string literal and no format arguments/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m: In function '-[Controller decrypt:]':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 1 of 'ipsw_extract_all' discards qualifiers from pointer target type/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 2 of 'ipsw_extract_all' discards qualifiers from pointer target type/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m:71: warning: passing argument 3 of 'ipsw_extract_all' discards qualifiers from pointer target type5(22@51"Format not a string literal and no format arguments317499609#109#132#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m314245661#39#0#39#0#51"format not a string literal and no format arguments0(22@51"Format not a string literal and no format arguments317499609#352#132#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m314245661#56#0#56#0#51"format not a string literal and no format arguments0(22@85"Passing argument 1 of 'ipsw_extract_all' discards qualifiers from pointer target type317499609#590#166#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m314245661#71#0#71#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@85"Passing argument 2 of 'ipsw_extract_all' discards qualifiers from pointer target type317499609#756#166#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m314245661#71#0#71#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@85"Passing argument 3 of 'ipsw_extract_all' discards qualifiers from pointer target type317499609#922#166#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m314245661#71#0#71#0#70"passing argument * of '*' discards qualifiers from pointer target type0(0#0#66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m8607907232#1866"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/Controller.m -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/Controller.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract_OSXAppDelegate.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318462856.079138
+e318462859.015368
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract_OSXAppDelegate.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m318462856#318462859#0(0"0(0#0#82"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m8613583392#1898"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSXAppDelegate.m -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract_OSXAppDelegate.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/MAAttachedWindow.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317499609.911935
+e317499610.281138
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/MAAttachedWindow.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m317499609#317499610#0(0"0(0#0#72"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m8609491840#1878"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/MAAttachedWindow.m -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/MAAttachedWindow.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/baseband.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c normal i386 c com.apple.compilers.gcc.4_2
+s317499610.093873
+e317499610.144622
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/baseband.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c317499610#317499610#0(0"0(0#0#70"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c8608631488#1858"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/baseband.c -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/baseband.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/file.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c normal i386 c com.apple.compilers.gcc.4_2
+s317499609.733981
+e317499609.781739
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/file.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c317499609#317499609#0(0"0(0#0#66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c8609213472#1850"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/file.c -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/file.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ipsw.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c normal i386 c com.apple.compilers.gcc.4_2
+s317499609.745445
+e317499609.911833
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ipsw.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_to_memory':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:158: warning: pointer targets in initialization differ in signedness
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_build_manifest':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:187: warning: pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:196: warning: pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_all':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:302: warning: format '%s' expects type 'char *', but argument 6 has type 'char **'
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:302: warning: format '%s' expects type 'char *', but argument 7 has type 'char **'
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:304: warning: passing argument 2 of '__builtin___strcpy_chk' from incompatible pointer type
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:304: warning: passing argument 2 of '__inline_strcpy_chk' from incompatible pointer type
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:305: warning: format '%s' expects type 'char *', but argument 2 has type 'char **'
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:314: warning: format '%s' expects type 'char *', but argument 7 has type 'char **'
+lSLF07#2@74"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c317499609#317499609#0(1704"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_to_memory':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:158: warning: pointer targets in initialization differ in signedness/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_build_manifest':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:187: warning: pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:196: warning: pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c: In function 'ipsw_extract_all':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:302: warning: format '%s' expects type 'char *', but argument 6 has type 'char **'/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:302: warning: format '%s' expects type 'char *', but argument 7 has type 'char **'/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:304: warning: passing argument 2 of '__builtin___strcpy_chk' from incompatible pointer type/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:304: warning: passing argument 2 of '__inline_strcpy_chk' from incompatible pointer type/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:305: warning: format '%s' expects type 'char *', but argument 2 has type 'char **'/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c:314: warning: format '%s' expects type 'char *', but argument 7 has type 'char **'9(22@54"Pointer targets in initialization differ in signedness317499609#106#136#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#158#0#158#0#0"0(22@86"Pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness317499609#353#168#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#187#0#187#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@86"Pointer targets in passing argument 4 of 'ipsw_extract_to_memory' differ in signedness317499609#521#168#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#196#0#196#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@68"Format '%s' expects type 'char *', but argument 6 has type 'char **'317499609#789#150#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#302#0#302#0#56"format '*' expects type '*', but argument * has type '*'0(22@68"Format '%s' expects type 'char *', but argument 7 has type 'char **'317499609#939#150#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#302#0#302#0#56"format '*' expects type '*', but argument * has type '*'0(22@77"Passing argument 2 of '__builtin___strcpy_chk' from incompatible pointer type317499609#1089#159#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#304#0#304#0#56"passing argument * of '*' from incompatible pointer type0(22@74"Passing argument 2 of '__inline_strcpy_chk' from incompatible pointer type317499609#1248#156#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#304#0#304#0#56"passing argument * of '*' from incompatible pointer type0(22@68"Format '%s' expects type 'char *', but argument 2 has type 'char **'317499609#1404#150#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#305#0#305#0#56"format '*' expects type '*', but argument * has type '*'0(22@68"Format '%s' expects type 'char *', but argument 7 has type 'char **'317499609#1554#150#0(6@66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c316471002#314#0#314#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#66"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c8608906240#1850"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.c -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ipsw.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/main.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317499609.543026
+e317499609.733868
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/main.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m317499609#317499609#0(0"0(0#0#60"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m8608605152#1854"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/main.m -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/main.o0#
+
+CCompileC build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ui.o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c normal i386 c com.apple.compilers.gcc.4_2
+s317499609.781851
+e317499609.819327
+r1
+xCompileC
+xbuild/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ui.o
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c: In function 'confirm':
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c:62: warning: control reaches end of non-void function
+lSLF07#2@72"Compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c317499609#317499609#0(208"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c: In function 'confirm':/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c:62: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function317499609#89#119#0(6@64"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c311972699#62#0#62#0#40"control reaches end of non-void function0(0#0#64"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c8608651872#1846"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -include /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ui.c -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/ui.o0#
+
+CCompileXIB /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib
+s317499601.989237
+e317499602.559909
+r1
+xCompileXIB
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.notices */
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:736: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:684: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:703: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:667: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:719: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:738: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:717: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:535: warning: The 'attached' outlet of 'Controller' is connected to 'Copyright View' but 'attached' is no longer defined on Controller.
+o/* com.apple.ibtool.document.notices */
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:736: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:684: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:703: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:719: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:667: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:738: note: This view is clipping its content.
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:717: note: This view is clipping its content.
+o/* com.apple.ibtool.document.warnings */
+o/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:535: warning: The 'attached' outlet of 'Controller' is connected to 'Copyright View' but 'attached' is no longer defined on Controller.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib317499601#317499602#0(1187"/* com.apple.ibtool.document.notices *//Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:736: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:684: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:703: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:719: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:667: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:738: note: This view is clipping its content./Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:717: note: This view is clipping its content./* com.apple.ibtool.document.warnings *//Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib:535: warning: The 'attached' outlet of 'Controller' is connected to 'Copyright View' but 'attached' is no longer defined on Controller.8(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#736#0#736#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#684#0#684#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#703#0#703#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#719#0#719#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#667#0#667#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#738#0#738#0#0"0(13@34"This view is clipping its content.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#717#0#717#0#0"0(22@121"The 'attached' outlet of 'Controller' is connected to 'Copyright View' but 'attached' is no longer defined on Controller.317499602#18446744073709551615#0#0(6@80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib316471798#535#0#535#0#0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib8603110624#417"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/MainMenu.nib /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist data/AppleTV2,1_4.1.plist
+s318462882.831821
+e318462882.868274
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist
+xdata/AppleTV2,1_4.1.plist
+lSLF07#2@30"Copy data/AppleTV2,1_4.1.plist318462882#318462882#0(0"0(0#0#79"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.1.plist8615784992#292"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/AppleTV2,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist data/AppleTV2,1_4.2.plist
+s318462882.856080
+e318462882.882483
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist
+xdata/AppleTV2,1_4.2.plist
+lSLF07#2@30"Copy data/AppleTV2,1_4.2.plist318462882#318462882#0(0"0(0#0#79"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.2.plist8665116992#292"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/AppleTV2,1_4.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist data/iPad1,1_3.2.1.plist
+s318462882.868378
+e318462882.894744
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist
+xdata/iPad1,1_3.2.1.plist
+lSLF07#2@29"Copy data/iPad1,1_3.2.1.plist318462882#318462882#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.1.plist8665026432#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPad1,1_3.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist data/iPad1,1_3.2.2.plist
+s318462883.309311
+e318462883.341071
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist
+xdata/iPad1,1_3.2.2.plist
+lSLF07#2@29"Copy data/iPad1,1_3.2.2.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.2.plist8620770176#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPad1,1_3.2.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist data/iPad1,1_3.2.plist
+s318462882.882585
+e318462882.908827
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist
+xdata/iPad1,1_3.2.plist
+lSLF07#2@27"Copy data/iPad1,1_3.2.plist318462882#318462882#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.plist8664839488#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPad1,1_3.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist data/iPad1,1_4.2.1.plist
+s318462883.292808
+e318462883.332059
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist
+xdata/iPad1,1_4.2.1.plist
+lSLF07#2@29"Copy data/iPad1,1_4.2.1.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_4.2.1.plist8663078368#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPad1,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist data/iPhone1,1_3.1.3.plist
+s318462882.894847
+e318462882.920804
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist
+xdata/iPhone1,1_3.1.3.plist
+lSLF07#2@31"Copy data/iPhone1,1_3.1.3.plist318462882#318462882#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,1_3.1.3.plist8664797152#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,1_3.1.3.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist data/iPhone1,2_4.0.1.plist
+s318462882.908935
+e318462882.939238
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist
+xdata/iPhone1,2_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone1,2_4.0.1.plist318462882#318462882#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.1.plist8664697632#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,2_4.0.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist data/iPhone1,2_4.0.2.plist
+s318462882.920910
+e318462882.950840
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist
+xdata/iPhone1,2_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone1,2_4.0.2.plist318462882#318462882#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.2.plist8664652256#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,2_4.0.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist data/iPhone1,2_4.0.plist
+s318462882.939345
+e318462882.966434
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist
+xdata/iPhone1,2_4.0.plist
+lSLF07#2@29"Copy data/iPhone1,2_4.0.plist318462882#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.plist8664109056#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,2_4.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist data/iPhone1,2_4.1.plist
+s318462882.950939
+e318462882.977430
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist
+xdata/iPhone1,2_4.1.plist
+lSLF07#2@29"Copy data/iPhone1,2_4.1.plist318462882#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.1.plist8664067456#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,2_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.2.1.plist data/iPhone1,2_4.2.1.plist
+s317499603.046864
+e317499603.072252
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.2.1.plist
+xdata/iPhone1,2_4.2.1.plist
+lSLF07#2@31"Copy data/iPhone1,2_4.2.1.plist317499603#317499603#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.2.1.plist8607832640#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone1,2_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist data/iPhone2,1_4.0.1.plist
+s318462882.966536
+e318462883.004350
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist
+xdata/iPhone2,1_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone2,1_4.0.1.plist318462882#318462883#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.1.plist8661874880#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone2,1_4.0.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist data/iPhone2,1_4.0.2.plist
+s318462882.977530
+e318462883.010847
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist
+xdata/iPhone2,1_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone2,1_4.0.2.plist318462882#318462883#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.2.plist8614146624#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone2,1_4.0.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist data/iPhone2,1_4.0.plist
+s318462883.004463
+e318462883.036817
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist
+xdata/iPhone2,1_4.0.plist
+lSLF07#2@29"Copy data/iPhone2,1_4.0.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.plist8666050304#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone2,1_4.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist data/iPhone2,1_4.1.plist
+s318462883.010943
+e318462883.046831
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist
+xdata/iPhone2,1_4.1.plist
+lSLF07#2@29"Copy data/iPhone2,1_4.1.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.1.plist8665971904#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone2,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.2.1.plist data/iPhone2,1_4.2.1.plist
+s317499603.072352
+e317499603.118532
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.2.1.plist
+xdata/iPhone2,1_4.2.1.plist
+lSLF07#2@31"Copy data/iPhone2,1_4.2.1.plist317499603#317499603#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.2.1.plist8607409088#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone2,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist data/iPhone3,1_4.0.1.plist
+s318462883.036921
+e318462883.068415
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist
+xdata/iPhone3,1_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone3,1_4.0.1.plist318462883#318462883#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.1.plist8615779520#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,1_4.0.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist data/iPhone3,1_4.0.2.plist
+s318462883.046935
+e318462883.093245
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist
+xdata/iPhone3,1_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone3,1_4.0.2.plist318462883#318462883#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.2.plist8613583392#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,1_4.0.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist data/iPhone3,1_4.0.plist
+s318462883.068514
+e318462883.098690
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist
+xdata/iPhone3,1_4.0.plist
+lSLF07#2@29"Copy data/iPhone3,1_4.0.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.plist8613062400#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,1_4.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist data/iPhone3,1_4.1.plist
+s318462883.093352
+e318462883.146237
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist
+xdata/iPhone3,1_4.1.plist
+lSLF07#2@29"Copy data/iPhone3,1_4.1.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.1.plist8618451136#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.2.1.plist data/iPhone3,1_4.2.1.plist
+s317499603.032635
+e317499603.058106
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.2.1.plist
+xdata/iPhone3,1_4.2.1.plist
+lSLF07#2@31"Copy data/iPhone3,1_4.2.1.plist317499603#317499603#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.2.1.plist8607883936#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,3_4.2.6.plist data/iPhone3,3_4.2.6.plist
+s318462880.661749
+e318462880.700278
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,3_4.2.6.plist
+xdata/iPhone3,3_4.2.6.plist
+lSLF07#2@31"Copy data/iPhone3,3_4.2.6.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,3_4.2.6.plist8613055456#293"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPhone3,3_4.2.6.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist data/iPod1,1_3.0.plist
+s318462883.098782
+e318462883.125782
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist
+xdata/iPod1,1_3.0.plist
+lSLF07#2@27"Copy data/iPod1,1_3.0.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod1,1_3.0.plist8666009504#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod1,1_3.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist data/iPod2,1_4.0.2.plist
+s318462883.125892
+e318462883.157747
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist
+xdata/iPod2,1_4.0.2.plist
+lSLF07#2@29"Copy data/iPod2,1_4.0.2.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.2.plist8664491648#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod2,1_4.0.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist data/iPod2,1_4.0.plist
+s318462883.146343
+e318462883.184462
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist
+xdata/iPod2,1_4.0.plist
+lSLF07#2@27"Copy data/iPod2,1_4.0.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.plist8649225696#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod2,1_4.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist data/iPod2,1_4.1.plist
+s318462883.157874
+e318462883.189892
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist
+xdata/iPod2,1_4.1.plist
+lSLF07#2@27"Copy data/iPod2,1_4.1.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.1.plist8648277056#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod2,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.2.1.plist data/iPod2,1_4.2.1.plist
+s317499603.086674
+e317499603.125426
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.2.1.plist
+xdata/iPod2,1_4.2.1.plist
+lSLF07#2@29"Copy data/iPod2,1_4.2.1.plist317499603#317499603#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.2.1.plist8607349248#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod2,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist data/iPod3,1_4.0.2.plist
+s318462883.184564
+e318462883.216808
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist
+xdata/iPod3,1_4.0.2.plist
+lSLF07#2@29"Copy data/iPod3,1_4.0.2.plist318462883#318462883#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.2.plist8614250272#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod3,1_4.0.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist data/iPod3,1_4.0.plist
+s318462883.189989
+e318462883.224334
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist
+xdata/iPod3,1_4.0.plist
+lSLF07#2@27"Copy data/iPod3,1_4.0.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.plist8613839712#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod3,1_4.0.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist data/iPod3,1_4.1.plist
+s318462883.216910
+e318462883.260754
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist
+xdata/iPod3,1_4.1.plist
+lSLF07#2@27"Copy data/iPod3,1_4.1.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.1.plist8664347712#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod3,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.2.1.plist data/iPod3,1_4.2.1.plist
+s317499603.118635
+e317499603.142893
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.2.1.plist
+xdata/iPod3,1_4.2.1.plist
+lSLF07#2@29"Copy data/iPod3,1_4.2.1.plist317499603#317499603#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.2.1.plist8606937792#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod3,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist data/iPod4,1_4.1.plist
+s318462883.224440
+e318462883.249522
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist
+xdata/iPod4,1_4.1.plist
+lSLF07#2@27"Copy data/iPod4,1_4.1.plist318462883#318462883#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.1.plist8664091008#289"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod4,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.2.1.plist data/iPod4,1_4.2.1.plist
+s317499603.018985
+e317499603.046762
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.2.1.plist
+xdata/iPod4,1_4.2.1.plist
+lSLF07#2@29"Copy data/iPod4,1_4.2.1.plist317499603#317499603#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.2.1.plist8607940288#291"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iPod4,1_4.2.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist data/iProd2,1_4.1.plist
+s318462883.249627
+e318462883.308984
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist
+xdata/iProd2,1_4.1.plist
+lSLF07#2@28"Copy data/iProd2,1_4.1.plist318462883#318462883#0(0"0(0#0#77"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.1.plist8663600768#290"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iProd2,1_4.1.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist data/iProd2,1_4.2.plist
+s318462883.260848
+e318462883.292553
+r1
+xCopyPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist
+xdata/iProd2,1_4.2.plist
+lSLF07#2@28"Copy data/iProd2,1_4.2.plist318462883#318462883#0(0"0(0#0#77"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.2.plist8645501824#290"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist data/iProd2,1_4.2.plist --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCopyStringsFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s317499601.915592
+e317499601.989139
+r1
+xCopyStringsFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings317499601#317499601#0(0"0(0#0#85"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/English.lproj/InfoPlist.strings8609796096#403"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/atv2.png atv2.png
+s317499602.522358
+e317499602.536285
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/atv2.png
+xatv2.png
+lSLF07#2@13"Copy atv2.png317499602#317499602#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/atv2.png8608278048#391"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/atv2.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/dmg dmg
+s317499602.518773
+e317499602.536141
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/dmg
+xdmg
+lSLF07#2@8"Copy dmg317499602#317499602#0(0"0(0#0#57"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/dmg8608456000#386"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/dmg /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ext.png ext.png
+s317499602.532245
+e317499602.565251
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/ext.png
+xext.png
+lSLF07#2@12"Copy ext.png317499602#317499602#0(0"0(0#0#61"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ext.png8607638560#390"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ext.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/firmextract.icns firmextract.icns
+s317499602.516751
+e317499602.530244
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/firmextract.icns
+xfirmextract.icns
+lSLF07#2@21"Copy firmextract.icns317499602#317499602#0(0"0(0#0#70"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/firmextract.icns8608520320#399"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/firmextract.icns /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad.png iPad.png
+s317499602.520562
+e317499602.538156
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPad.png
+xiPad.png
+lSLF07#2@13"Copy iPad.png317499602#317499602#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPad.png8608347200#391"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPad.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPadorATV.png iPadorATV.png
+s317499602.527889
+e317499602.544419
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPadorATV.png
+xiPadorATV.png
+lSLF07#2@18"Copy iPadorATV.png317499602#317499602#0(0"0(0#0#67"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPadorATV.png8607881504#396"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPadorATV.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone.png iPhone.png
+s317499602.524235
+e317499602.541377
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone.png
+xiPhone.png
+lSLF07#2@15"Copy iPhone.png317499602#317499602#0(0"0(0#0#64"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPhone.png8608148512#393"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPhone.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod.png iPod.png
+s317499602.526085
+e317499602.560059
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod.png
+xiPod.png
+lSLF07#2@13"Copy iPod.png317499602#317499602#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPod.png8607921088#391"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/iPod.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/icons.icns icons.icns
+s317499602.999072
+e317499603.016847
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/icons.icns
+xicons.icns
+lSLF07#2@15"Copy icons.icns317499602#317499603#0(0"0(0#0#64"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/icons.icns8608133728#393"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/icons.icns /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png c-src/ipsw.png
+s318462882.829544
+e318462882.855789
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png
+xc-src/ipsw.png
+lSLF07#2@19"Copy c-src/ipsw.png318462882#318462882#0(0"0(0#0#68"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.png8649587840#397"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/c-src/ipsw.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png ipsw.png
+s318462880.651668
+e318462880.675599
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/ipsw.png
+xipsw.png
+lSLF07#2@13"Copy ipsw.png318462880#318462880#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ipsw.png32370120545140836#391"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/ipsw.png /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto data/keys_howto
+s317499602.998086
+e317499603.005699
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto
+xdata/keys_howto
+lSLF07#2@20"Copy data/keys_howto317499602#317499603#0(0"0(0#0#69"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/keys_howto8608178336#398"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/keys_howto /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CCpResource build/Debug/FirmExtract-OSX.app/Contents/Resources/xpwntool xpwntool
+s317499602.530319
+e317499602.554702
+r1
+xCpResource
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/xpwntool
+xxpwntool
+lSLF07#2@13"Copy xpwntool317499602#317499602#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/xpwntool8607708160#391"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/xpwntool /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CLd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX normal i386
+s318462859.015559
+e318462859.826163
+r1
+xLd
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX
+xnormal
+xi386
+lSLF07#2@121"Link /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX318462859#318462859#0(0"0(0#0#0"8615224512#838"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -L/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -filelist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/Objects-normal/i386/FirmExtract-OSX.LinkFileList -mmacosx-version-min=10.6 -lzip -lz -lplist -lssl -lcrypto -framework Cocoa -lz.1.1.3 -lzip.1 -framework Foundation -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS/FirmExtract-OSX0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/MacOS/dmg dmg
+s317499611.219801
+e317499611.227177
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/MacOS/dmg
+xdmg
+lSLF07#2@8"Copy dmg317499611#317499611#0(0"0(0#0#57"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/dmg8608758656#382"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/dmg /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/MacOS/xpwntool xpwntool
+s317499611.220593
+e317499611.226507
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/MacOS/xpwntool
+xxpwntool
+lSLF07#2@13"Copy xpwntool317499611#317499611#0(0"0(0#0#62"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/xpwntool8608694400#387"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/xpwntool /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/MacOS0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist data/AppleTV2,1_4.1.plist
+s318462880.702531
+e318462880.744505
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.1.plist
+xdata/AppleTV2,1_4.1.plist
+lSLF07#2@30"Copy data/AppleTV2,1_4.1.plist318462880#318462880#0(0"0(0#0#79"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.1.plist8680744352#408"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist data/AppleTV2,1_4.2.plist
+s318462880.714399
+e318462880.744895
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/AppleTV2,1_4.2.plist
+xdata/AppleTV2,1_4.2.plist
+lSLF07#2@30"Copy data/AppleTV2,1_4.2.plist318462880#318462880#0(0"0(0#0#79"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.2.plist8621081664#408"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/AppleTV2,1_4.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist data/iPad1,1_3.2.1.plist
+s318462880.715234
+e318462880.745041
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.1.plist
+xdata/iPad1,1_3.2.1.plist
+lSLF07#2@29"Copy data/iPad1,1_3.2.1.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.1.plist8621057600#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist data/iPad1,1_3.2.2.plist
+s318462880.818172
+e318462880.826910
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.2.plist
+xdata/iPad1,1_3.2.2.plist
+lSLF07#2@29"Copy data/iPad1,1_3.2.2.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.2.plist8666081952#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist data/iPad1,1_3.2.plist
+s318462880.722199
+e318462880.745166
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_3.2.plist
+xdata/iPad1,1_3.2.plist
+lSLF07#2@27"Copy data/iPad1,1_3.2.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.plist8664318944#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_3.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist data/iPad1,1_4.2.1.plist
+s318462880.815853
+e318462880.823780
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPad1,1_4.2.1.plist
+xdata/iPad1,1_4.2.1.plist
+lSLF07#2@29"Copy data/iPad1,1_4.2.1.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_4.2.1.plist8666758784#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPad1,1_4.2.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist data/iPhone1,1_3.1.3.plist
+s318462880.724174
+e318462880.745290
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,1_3.1.3.plist
+xdata/iPhone1,1_3.1.3.plist
+lSLF07#2@31"Copy data/iPhone1,1_3.1.3.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,1_3.1.3.plist8665428192#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,1_3.1.3.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist data/iPhone1,2_4.0.1.plist
+s318462880.729705
+e318462880.745410
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.1.plist
+xdata/iPhone1,2_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone1,2_4.0.1.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.1.plist8663076192#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist data/iPhone1,2_4.0.2.plist
+s318462880.730633
+e318462880.745530
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.2.plist
+xdata/iPhone1,2_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone1,2_4.0.2.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.2.plist8654472448#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist data/iPhone1,2_4.0.plist
+s318462880.735365
+e318462880.745652
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.0.plist
+xdata/iPhone1,2_4.0.plist
+lSLF07#2@29"Copy data/iPhone1,2_4.0.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.plist8651759680#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist data/iPhone1,2_4.1.plist
+s318462880.736196
+e318462880.745778
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone1,2_4.1.plist
+xdata/iPhone1,2_4.1.plist
+lSLF07#2@29"Copy data/iPhone1,2_4.1.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.1.plist8648269536#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone1,2_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist data/iPhone2,1_4.0.1.plist
+s318462880.740896
+e318462880.781407
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.1.plist
+xdata/iPhone2,1_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone2,1_4.0.1.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.1.plist8646980768#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist data/iPhone2,1_4.0.2.plist
+s318462880.745859
+e318462880.780538
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.2.plist
+xdata/iPhone2,1_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone2,1_4.0.2.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.2.plist8636861024#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist data/iPhone2,1_4.0.plist
+s318462880.753924
+e318462880.780680
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.0.plist
+xdata/iPhone2,1_4.0.plist
+lSLF07#2@29"Copy data/iPhone2,1_4.0.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.plist8621352736#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist data/iPhone2,1_4.1.plist
+s318462880.755566
+e318462880.780803
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone2,1_4.1.plist
+xdata/iPhone2,1_4.1.plist
+lSLF07#2@29"Copy data/iPhone2,1_4.1.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.1.plist8620967008#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone2,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist data/iPhone3,1_4.0.1.plist
+s318462880.762552
+e318462880.780925
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.1.plist
+xdata/iPhone3,1_4.0.1.plist
+lSLF07#2@31"Copy data/iPhone3,1_4.0.1.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.1.plist8618300384#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist data/iPhone3,1_4.0.2.plist
+s318462880.763898
+e318462880.781048
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.2.plist
+xdata/iPhone3,1_4.0.2.plist
+lSLF07#2@31"Copy data/iPhone3,1_4.0.2.plist318462880#318462880#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.2.plist8617609536#409"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist data/iPhone3,1_4.0.plist
+s318462880.769405
+e318462880.781165
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.0.plist
+xdata/iPhone3,1_4.0.plist
+lSLF07#2@29"Copy data/iPhone3,1_4.0.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.plist8617333024#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist data/iPhone3,1_4.1.plist
+s318462880.770233
+e318462880.781280
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPhone3,1_4.1.plist
+xdata/iPhone3,1_4.1.plist
+lSLF07#2@29"Copy data/iPhone3,1_4.1.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.1.plist8615726912#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPhone3,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist data/iPod1,1_3.0.plist
+s318462880.773529
+e318462880.815574
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod1,1_3.0.plist
+xdata/iPod1,1_3.0.plist
+lSLF07#2@27"Copy data/iPod1,1_3.0.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod1,1_3.0.plist8614625504#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod1,1_3.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist data/iPod2,1_4.0.2.plist
+s318462880.775610
+e318462880.815696
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.2.plist
+xdata/iPod2,1_4.0.2.plist
+lSLF07#2@29"Copy data/iPod2,1_4.0.2.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.2.plist8613787904#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist data/iPod2,1_4.0.plist
+s318462880.781486
+e318462880.814753
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.0.plist
+xdata/iPod2,1_4.0.plist
+lSLF07#2@27"Copy data/iPod2,1_4.0.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.plist8613644576#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist data/iPod2,1_4.1.plist
+s318462880.789628
+e318462880.814889
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod2,1_4.1.plist
+xdata/iPod2,1_4.1.plist
+lSLF07#2@27"Copy data/iPod2,1_4.1.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.1.plist8613334944#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod2,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist data/iPod3,1_4.0.2.plist
+s318462880.793391
+e318462880.815012
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.2.plist
+xdata/iPod3,1_4.0.2.plist
+lSLF07#2@29"Copy data/iPod3,1_4.0.2.plist318462880#318462880#0(0"0(0#0#78"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.2.plist8664189120#407"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist data/iPod3,1_4.0.plist
+s318462880.799310
+e318462880.815134
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.0.plist
+xdata/iPod3,1_4.0.plist
+lSLF07#2@27"Copy data/iPod3,1_4.0.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.plist8663271168#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.0.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist data/iPod3,1_4.1.plist
+s318462880.800144
+e318462880.815256
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod3,1_4.1.plist
+xdata/iPod3,1_4.1.plist
+lSLF07#2@27"Copy data/iPod3,1_4.1.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.1.plist8663290048#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod3,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist data/iPod4,1_4.1.plist
+s318462880.804810
+e318462880.815376
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iPod4,1_4.1.plist
+xdata/iPod4,1_4.1.plist
+lSLF07#2@27"Copy data/iPod4,1_4.1.plist318462880#318462880#0(0"0(0#0#76"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.1.plist8667320256#405"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iPod4,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist data/iProd2,1_4.1.plist
+s318462880.809555
+e318462880.822573
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.1.plist
+xdata/iProd2,1_4.1.plist
+lSLF07#2@28"Copy data/iProd2,1_4.1.plist318462880#318462880#0(0"0(0#0#77"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.1.plist8667113280#406"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.1.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist data/iProd2,1_4.2.plist
+s318462880.811697
+e318462880.822708
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/iProd2,1_4.2.plist
+xdata/iProd2,1_4.2.plist
+lSLF07#2@28"Copy data/iProd2,1_4.2.plist318462880#318462880#0(0"0(0#0#77"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.2.plist8666862432#406"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/iProd2,1_4.2.plist /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CPBXCp build/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto data/keys_howto
+s317499611.307088
+e317499611.329337
+r1
+xPBXCp
+xbuild/Debug/FirmExtract-OSX.app/Contents/Resources/keys_howto
+xdata/keys_howto
+lSLF07#2@20"Copy data/keys_howto317499611#317499611#0(0"0(0#0#69"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/keys_howto8612398304#398"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/data/keys_howto /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Resources0#
+
+CProcessInfoPlistFile /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Info.plist FirmExtract_OSX-Info.plist
+s317499601.905637
+e317499601.914499
+r1
+xProcessInfoPlistFile
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Info.plist
+xFirmExtract_OSX-Info.plist
+lSLF07#2@34"Process FirmExtract_OSX-Info.plist317499601#317499601#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX-Info.plist8608470240#379"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    builtin-infoPlistUtility FirmExtract_OSX-Info.plist -genpkginfo /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch.gch FirmExtract_OSX_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317499603.143028
+e317499609.542859
+r1
+xProcessPCH
+x/var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch.gch
+xFirmExtract_OSX_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile FirmExtract_OSX_Prefix.pch317499603#317499609#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX_Prefix.pch8606912000#1739"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX_Prefix.pch -o /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-esadkryrtdfgrjcgryoagmtisnjc/FirmExtract_OSX_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch.gch FirmExtract_OSX_Prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s317499603.143969
+e317499603.253805
+r1
+xProcessPCH
+x/var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch.gch
+xFirmExtract_OSX_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile FirmExtract_OSX_Prefix.pch317499603#317499603#0(0"0(0#0#80"/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX_Prefix.pch8605914560#1729"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-generated-files.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-own-target-headers.hmap -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-all-target-headers.hmap -iquote /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/FirmExtract-OSX-project-headers.hmap -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug -F/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac -iquote/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/include -I/usr/local/include -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources/i386 -I/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/FirmExtract-OSX.build/Debug/FirmExtract-OSX.build/DerivedSources -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/FirmExtract_OSX_Prefix.pch -o /var/folders/dV/dV1kO3JdEhGzw0+ReKxA-k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FirmExtract_OSX_Prefix-gngipvrvwdyzonckdzinqwqxvbfl/FirmExtract_OSX_Prefix.pch.gch0#
+
+CTouch /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app
+s318462883.344160
+e318462883.348713
+r1
+xTouch
+x/Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app
+lSLF07#2@91"Touch /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app318462883#318462883#0(0"0(0#0#0"8664182304#169"    cd /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac    /usr/bin/touch -c /Users/boxingsquirrel/Documents/Devel/FirmExtract/mac/build/Debug/FirmExtract-OSX.app0#
+
